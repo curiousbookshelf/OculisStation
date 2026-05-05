@@ -1,0 +1,4 @@
+author: "craftxbox"
+delete-after: True
+changes:
+  - bugfix: "towercap logs & co drop to the floor when processed by big manipulators"

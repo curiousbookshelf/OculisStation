@@ -929,3 +929,9 @@
   Spacemanspark:
   - rscdel: Furious George will no longer furiously try to George your skull in when
       the round starts.
+2026-04-30:
+  Aozame04:
+  - map: Maintenance, security, cargo, library, xenobiology and couple of other areas
+      updated on Kilostation.
+  Shroopy:
+  - bugfix: Fixed the NT M-96 not being permit-locked.
