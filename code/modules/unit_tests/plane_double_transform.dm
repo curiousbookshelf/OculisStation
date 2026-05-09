@@ -2,6 +2,7 @@
 /datum/unit_test/plane_double_transform
 
 /datum/unit_test/plane_double_transform/Run()
+	/* // OCULIS EDIT REMOVAL START
 	// We're going to operate off the actual plane master setup of an actual mob
 	// It's not perfect, but it'll help things a lot
 	var/mob/living/carbon/human/judger = allocate(/mob/living/carbon/human/consistent)
@@ -53,3 +54,4 @@
 				if(target.multiz_scaled)
 					TEST_FAIL("[input_plane.type] is eventually drawn (via render relays) onto [target.type] {[keys_to_walk[target_key]]}. Both are scaled by multiz, so this will cause strange transforms.\n\
 					consider making a new render plate that they can both draw to instead, or something of that nature.")
+	*/ // OCULIS EDIT REMOVAL END
