@@ -254,9 +254,9 @@
 	alt_titles = list(
 		"Customs Agent",
 		"Supply Guard",
-		"Union Customs Agent", //OCULIS ADDITION START
-		"Supply Guard Trainee",
-		"Deck Defense Officer",
+		"Union Customs Agent", //OCULIS ADDITION
+		"Supply Guard Trainee", //OCULIS ADDITION
+		"Deck Defense Officer", //OCULIS ADDITION
 		"Delivery Escort",
 	)
 
