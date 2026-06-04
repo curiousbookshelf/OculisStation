@@ -61,10 +61,13 @@ function buildMarks(
           : evts[0].info.replace(/<[^>]*>/g, ''),
         tooltipHtml: isMulti
           ? null
-          : sanitizeText(evts[0].info, false, undefined, [
-              'style',
-              'background',
-            ]),
+          : (() => {
+              const html = sanitizeText(evts[0].info, false, undefined, [
+                'style',
+                'background',
+              ]);
+              return typeof html === 'string' ? html : html.sanitized;
+            })(),
         data: evts,
       });
     }
@@ -117,7 +120,12 @@ export function EventLogger() {
           }}
           title={track.name.replace(/<[^>]*>/g, '')}
           onClick={() => handleSelectTrack(track)}
-          dangerouslySetInnerHTML={{ __html: sanitizeText(track.name) }}
+          dangerouslySetInnerHTML={{
+            __html: (() => {
+              const html = sanitizeText(track.name);
+              return typeof html === 'string' ? html : html.sanitized;
+            })(),
+          }}
         />
         <button
           title="Remove track and all its events"
