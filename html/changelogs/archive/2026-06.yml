@@ -10,3 +10,9 @@
 2026-06-05:
   Skies-Of-Blue:
   - rscadd: You can now fit (some) hats on top of hairties
+2026-06-06:
+  Shroopy:
+  - code_imp: Changed the reference to tgstation to Oculis Station in the github message
+      of the stale workflow.
+  XeonMations:
+  - bugfix: Fixed main menu text overlapping
