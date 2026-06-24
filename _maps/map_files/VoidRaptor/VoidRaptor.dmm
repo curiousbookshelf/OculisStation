@@ -29831,6 +29831,10 @@
 	pixel_x = -4;
 	pixel_y = 14
 	},
+/obj/item/surgicaldrill{
+	pixel_x = -2;
+	pixel_y = 16
+	},
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 4
 	},
