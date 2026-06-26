@@ -1,0 +1,4 @@
+author: "Shroopy"
+delete-after: True
+changes:
+  - bugfix: "Fixed podperson healing affecting prosthetics."
