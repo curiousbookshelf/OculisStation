@@ -1,0 +1,5 @@
+author: "XeonMations"
+delete-after: True
+changes:
+  - bugfix: "Fixed certain tails going invisible when wagging."
+  - bugfix: "Fixed being unable to wag certain tails if they didin't have a wagging sprite."
