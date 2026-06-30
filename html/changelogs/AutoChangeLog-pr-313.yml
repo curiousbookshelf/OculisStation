@@ -1,0 +1,4 @@
+author: "meemofcourse"
+delete-after: True
+changes:
+  - bugfix: "Cameras can now take 1x1 photos"
