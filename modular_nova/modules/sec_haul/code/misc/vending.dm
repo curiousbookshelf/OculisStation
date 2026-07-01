@@ -136,7 +136,6 @@
 		/obj/item/clothing/suit/armor/vest/hc_police = 3,
 		/obj/item/clothing/suit/armor/vest/hc_police_jacket = 3,
 		/obj/item/clothing/shoes/jackboots/gogo_boots = 4,
-		/obj/item/clothing/under/rank/security/security_bunnysuit = 6,
 		/obj/item/clothing/suit/armor/security_tailcoat = 6,
 		/obj/item/clothing/neck/tie/bunnytie/security = 6,
 		/obj/item/clothing/suit/armor/security_tailcoat/assistant = 6,
