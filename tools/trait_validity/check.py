@@ -39,6 +39,18 @@ if not os.path.isfile(nova_defines_file):
 	sys.exit(1)
 # NOVA EDIT ADDITION END
 
+# OCULIS EDIT ADDITION START
+if not os.path.isfile(iris_defines_file):
+	print(red(f"Could not find the iris defines file '{iris_defines_file}'!"))
+	sys.exit(1)
+# OCULIS EDIT ADDITION END
+
+# OCULIS EDIT ADDITION START
+if not os.path.isfile(oculis_defines_file):
+	print(red(f"Could not find the oculis defines file '{oculis_defines_file}'!"))
+	sys.exit(1)
+# OCULIS EDIT ADDITION END
+
 if not os.path.isfile(globalvars_file):
 	print(red(f"Could not find the globalvars file '{globalvars_file}'!"))
 	sys.exit(1)
