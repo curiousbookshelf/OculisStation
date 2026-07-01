@@ -187,4 +187,4 @@
 	name = "shadekin ears"
 	desc = "Ears, covered in fur."
 	damage_multiplier = 1.5
-	actions_types = list(/datum/action/cooldown/spell/sensitive_hearing)
+	// actions_types = list(/datum/action/cooldown/spell/sensitive_hearing) // OCULIS EDIT REMOVAL
