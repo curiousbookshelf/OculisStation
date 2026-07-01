@@ -1987,7 +1987,7 @@
 	dir = 1
 	},
 /obj/structure/extinguisher_cabinet/directional/south,
-/mob/living/simple_animal/bot/mulebot,
+/mob/living/basic/bot/mulebot,
 /obj/machinery/navbeacon{
 	codes_txt = "delivery;dir=8";
 	location = "QM #3"
@@ -5193,7 +5193,7 @@
 "dgC" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "dgV" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/turf_decal/tile/green,
@@ -5244,7 +5244,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "djH" = (
 /turf/open/floor/iron/dark/textured_corner{
 	dir = 8
@@ -6303,7 +6303,7 @@
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
 /obj/structure/cable/layer1,
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "ehC" = (
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/yellow,
@@ -6561,7 +6561,7 @@
 "esN" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating/airless,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "esS" = (
 /obj/machinery/camera/directional/north{
 	c_tag = "Permabrig Central";
@@ -6851,7 +6851,7 @@
 	cycle_id = "engine"
 	},
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "eHa" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -8453,7 +8453,7 @@
 /area/station/science/ordnance/office)
 "gcC" = (
 /turf/closed/wall/r_wall,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "gcG" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
@@ -9824,7 +9824,7 @@
 "htF" = (
 /obj/structure/cable/multilayer/connected,
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "hvC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -10282,7 +10282,7 @@
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "hMR" = (
 /obj/machinery/light/directional/south,
 /obj/structure/disposalpipe/segment{
@@ -18953,7 +18953,7 @@
 "pEn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/closed/wall/r_wall,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "pEM" = (
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/floor/grass,
@@ -19410,7 +19410,7 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "pYR" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -21026,7 +21026,7 @@
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "rxn" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/simple/green/visible{
@@ -22274,7 +22274,7 @@
 	},
 /obj/effect/mapping_helpers/airalarm/tlv_no_checks,
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "szU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
@@ -22454,7 +22454,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/testlab)
 "sGb" = (
-/mob/living/simple_animal/bot/mulebot,
+/mob/living/basic/bot/mulebot,
 /obj/machinery/navbeacon{
 	codes_txt = "delivery;dir=8";
 	location = "QM #1"
@@ -23517,7 +23517,7 @@
 	},
 /obj/machinery/power/supermatter_crystal/engine,
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "tEl" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -25450,7 +25450,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/landmark/atmospheric_sanity/ignore_area,
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "vxv" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -26879,7 +26879,7 @@
 /area/station/service/kitchen)
 "wEb" = (
 /turf/open/floor/engine,
-/area/station/engineering/supermatter)
+/area/station/engineering/supermatter/engine)
 "wEu" = (
 /obj/structure/cable,
 /obj/machinery/light/directional/north,
