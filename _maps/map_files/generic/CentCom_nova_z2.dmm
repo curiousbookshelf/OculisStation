@@ -158,10 +158,6 @@
 	pixel_x = -19;
 	pixel_y = -23
 	},
-/obj/item/fancy_pillow{
-	pixel_x = -10;
-	pixel_y = -7
-	},
 /turf/open/floor/bamboo/tatami/black,
 /area/centcom/holding/cafe)
 "agb" = (
@@ -766,14 +762,6 @@
 	},
 /turf/open/misc/dirt/planet,
 /area/centcom/holding/cafepark)
-"ayr" = (
-/obj/effect/turf_decal/weather/dirt{
-	dir = 4
-	},
-/obj/item/fancy_pillow,
-/obj/effect/light_emitter/interlink,
-/turf/open/floor/grass,
-/area/centcom/interlink)
 "ayw" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 3
@@ -2313,8 +2301,7 @@
 /area/centcom/interlink)
 "bEb" = (
 /obj/structure/chair/comfy{
-	color = "#596479";
-	dir = 2
+	color = "#596479"
 	},
 /obj/item/toy/plush/lizard_plushie/green{
 	name = "Breaks-The-PRs"
@@ -3279,7 +3266,6 @@
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 1
 	},
-/obj/structure/bed/pillow_large,
 /turf/open/floor/iron/dark/smooth_large,
 /area/centcom/interlink)
 "cKZ" = (
@@ -4221,8 +4207,7 @@
 /area/centcom/holding/cafe)
 "dHV" = (
 /obj/structure/chair/comfy{
-	color = "#596479";
-	dir = 2
+	color = "#596479"
 	},
 /obj/item/toy/plush/moth{
 	name = "Buzz Buzz"
@@ -4315,9 +4300,6 @@
 	},
 /area/centcom/holding/cafepark)
 "dLm" = (
-/obj/item/fancy_pillow{
-	pixel_y = -1
-	},
 /obj/item/forging/reagent_weapon/bokken,
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -4601,7 +4583,6 @@
 "dXU" = (
 /obj/structure/table/wood,
 /obj/machinery/light/floor,
-/obj/item/bdsm_candle,
 /turf/open/floor/carpet/stellar,
 /area/centcom/interlink)
 "dXY" = (
@@ -5416,12 +5397,6 @@
 /obj/structure/flora/bush/flowers_pp/style_random,
 /obj/effect/light_emitter/interlink,
 /turf/open/floor/grass,
-/area/centcom/interlink)
-"eUg" = (
-/obj/structure/table/wood,
-/obj/item/bdsm_candle,
-/obj/machinery/light/floor,
-/turf/open/floor/carpet/stellar,
 /area/centcom/interlink)
 "eUw" = (
 /obj/structure/platform/wood,
@@ -6457,9 +6432,6 @@
 /turf/open/misc/grass/planet,
 /area/centcom/holding/cafepark)
 "gfT" = (
-/obj/item/fancy_pillow{
-	pixel_y = -1
-	},
 /obj/item/forging/reagent_weapon/bokken,
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/bamboo/tatami/black{
@@ -7697,9 +7669,7 @@
 /area/centcom/holding/cafepark)
 "hFu" = (
 /obj/effect/light_emitter/interlink,
-/obj/effect/turf_decal/siding/white/corner{
-	dir = 2
-	},
+/obj/effect/turf_decal/siding/white/corner,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -9685,9 +9655,7 @@
 /area/centcom/holding/cafepark)
 "khz" = (
 /obj/effect/turf_decal/tile/blue/full,
-/obj/effect/turf_decal/siding/thinplating_new/light{
-	dir = 2
-	},
+/obj/effect/turf_decal/siding/thinplating_new/light,
 /turf/open/floor/iron/white/smooth_large,
 /area/centcom/interlink)
 "kix" = (
@@ -10208,9 +10176,7 @@
 /area/centcom/interlink/dorm_rooms/room5)
 "kSc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/pink/hidden,
-/obj/effect/turf_decal/siding{
-	dir = 2
-	},
+/obj/effect/turf_decal/siding,
 /turf/open/floor/iron/white,
 /area/centcom/interlink)
 "kTI" = (
@@ -10731,10 +10697,7 @@
 /obj/item/reagent_containers/cup/glass/bottle/small{
 	pixel_x = -8
 	},
-/obj/item/reagent_containers/cup/glass/bottle/small{
-	pixel_x = 0;
-	pixel_y = 0
-	},
+/obj/item/reagent_containers/cup/glass/bottle/small,
 /obj/item/reagent_containers/cup/glass/bottle/small{
 	pixel_x = 7
 	},
@@ -10803,7 +10766,6 @@
 "ltm" = (
 /obj/structure/platform/wood/stage,
 /obj/structure/fluff/standalone_wooden_post{
-	pixel_x = 0;
 	pixel_y = -1
 	},
 /turf/open/misc/grass/planet,
@@ -10924,7 +10886,6 @@
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
 	},
-/obj/item/fancy_pillow,
 /turf/open/floor/carpet/black,
 /area/centcom/interlink)
 "lya" = (
@@ -11965,7 +11926,6 @@
 /turf/open/misc/beach/sand,
 /area/centcom/holding/cafepark)
 "mFo" = (
-/obj/item/fancy_pillow,
 /obj/structure/table/wood,
 /turf/open/floor/carpet/black,
 /area/centcom/interlink)
@@ -12165,8 +12125,7 @@
 /area/centcom/holding/cafepark)
 "mVc" = (
 /obj/structure/chair/comfy{
-	color = "#596479";
-	dir = 2
+	color = "#596479"
 	},
 /obj/item/toy/plush/moth{
 	name = "Watch Commander Moffus"
@@ -12429,9 +12388,7 @@
 /turf/open/floor/iron/brick,
 /area/centcom/holding/cafe)
 "nna" = (
-/obj/effect/turf_decal/siding{
-	dir = 2
-	},
+/obj/effect/turf_decal/siding,
 /turf/open/floor/iron/white,
 /area/centcom/interlink)
 "nng" = (
@@ -12913,17 +12870,6 @@
 /obj/effect/spawner/random/structure/crate,
 /turf/open/floor/engine,
 /area/centcom/interlink)
-"nSx" = (
-/obj/item/fancy_pillow{
-	pixel_y = -1
-	},
-/obj/effect/turf_decal/siding/dark{
-	dir = 1
-	},
-/turf/open/floor/bamboo/tatami/black{
-	dir = 4
-	},
-/area/centcom/holding/cafe)
 "nSZ" = (
 /obj/effect/light_emitter/interlink,
 /obj/structure/railing{
@@ -13985,7 +13931,6 @@
 	pixel_y = 1
 	},
 /obj/item/reagent_containers/dropper{
-	pixel_x = 0;
 	pixel_y = -9
 	},
 /turf/open/floor/iron/dark/smooth_corner{
@@ -16663,7 +16608,6 @@
 "seV" = (
 /obj/structure/chair/sofa/corp,
 /obj/structure/sign/painting/library_secure{
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/siding/wood{
@@ -18900,11 +18844,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/holding/cafe)
-"uKA" = (
-/obj/item/fancy_pillow,
-/obj/effect/light_emitter/interlink,
-/turf/open/floor/grass,
-/area/centcom/interlink)
 "uLw" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/bush/flowers_pp/style_2,
@@ -21025,7 +20964,6 @@
 /obj/structure/flora/bush/fullgrass,
 /obj/structure/platform/wood/stage,
 /obj/structure/fluff/standalone_wooden_post{
-	pixel_x = 0;
 	pixel_y = -1
 	},
 /turf/open/misc/grass/planet,
@@ -21071,9 +21009,6 @@
 /turf/closed/mineral/earth_like,
 /area/centcom/holding/cafepark)
 "xpk" = (
-/obj/item/fancy_pillow{
-	pixel_y = -1
-	},
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/bamboo/tatami/black{
 	dir = 4
@@ -21189,9 +21124,7 @@
 /turf/open/indestructible/carpet,
 /area/centcom/holding/cafe)
 "xzh" = (
-/obj/effect/turf_decal/siding/thinplating_new/light{
-	dir = 2
-	},
+/obj/effect/turf_decal/siding/thinplating_new/light,
 /turf/open/floor/iron/white/smooth_large,
 /area/centcom/interlink)
 "xzj" = (
@@ -21269,13 +21202,6 @@
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_x = -12;
 	pixel_y = -42
-	},
-/obj/item/fancy_pillow{
-	pixel_x = -22;
-	pixel_y = -7
-	},
-/obj/item/fancy_pillow{
-	pixel_y = -1
 	},
 /turf/open/floor/bamboo/tatami/black{
 	dir = 4
@@ -21383,8 +21309,7 @@
 /area/centcom/holding/cafe)
 "xPZ" = (
 /obj/structure/chair/comfy{
-	color = "#596479";
-	dir = 2
+	color = "#596479"
 	},
 /turf/open/floor/carpet/blue,
 /area/centcom/interlink)
@@ -42153,7 +42078,7 @@ qKK
 vat
 vat
 jGS
-uKA
+vat
 hwM
 vat
 vat
@@ -42409,7 +42334,7 @@ fHV
 vat
 dsH
 wwD
-ayr
+wwD
 wwD
 wwD
 wwD
@@ -44190,7 +44115,7 @@ hcR
 dAC
 hcR
 nMX
-eUg
+dXU
 tpU
 vzo
 jpr
@@ -60368,7 +60293,7 @@ ybQ
 ihd
 ihd
 aqf
-nSx
+nYZ
 cdu
 jOE
 gfT
