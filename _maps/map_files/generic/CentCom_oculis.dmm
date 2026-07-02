@@ -18855,7 +18855,7 @@
 	height = 11;
 	shuttle_id = "ferry_away";
 	name = "CentCom Ferry Dock";
-	roundstart_template = /datum/map_template/shuttle/ferry;
+	roundstart_template = /datum/map_template/shuttle/ferry/nova;
 	width = 20
 	},
 /turf/open/floor/engine,
