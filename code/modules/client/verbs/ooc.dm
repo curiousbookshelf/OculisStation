@@ -81,9 +81,6 @@ GLOBAL_VAR_INIT(normal_ooc_colour, "#002eb8")
 	var/key_prefix = ""
 	var/visible_unlock = prefs.unlock_content && (prefs.toggles & MEMBER_PUBLIC)
 
-	if(prefs.unlock_content)
-		if(prefs.toggles & MEMBER_PUBLIC)
-			keyname = "<font color='[prefs.read_preference(/datum/preference/color/ooc_color) || GLOB.normal_ooc_colour]'>[icon2html('icons/ui/chat/member_content.dmi', world, "blag")][keyname]</font>"
 	if(prefs.hearted)
 		LAZYADD(key_tags, "emoji-heart")
 	if(visible_unlock)
