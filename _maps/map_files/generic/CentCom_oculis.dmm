@@ -14932,23 +14932,8 @@
 	dwidth = 8;
 	height = 11;
 	shuttle_id = "ferry_away";
-	name = "CentCom Ferry Dock";
-	roundstart_template = /datum/map_template/shuttle/ferry/nova;
-	width = 20
-	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/docking_port/stationary{
-	dheight = 3;
-	dir = 8;
-	dwidth = 8;
-	height = 11;
-	shuttle_id = "ferry_away";
 	name = "SectCom Ferry Dock";
-	roundstart_template = /datum/map_template/shuttle/ferry;
+	roundstart_template = /datum/map_template/shuttle/ferry/nova;
 	width = 20
 	},
 /turf/open/floor/engine,
