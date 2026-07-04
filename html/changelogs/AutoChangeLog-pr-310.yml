@@ -1,0 +1,4 @@
+author: "keygenpie"
+delete-after: True
+changes:
+  - balance: "Golem nutrition damage now depends on number of Golem limbs"
