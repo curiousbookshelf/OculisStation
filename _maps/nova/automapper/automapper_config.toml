@@ -229,7 +229,7 @@ coordinates = [148, 161, 1]
 trait_name = "Station"
 
 # ICEBOX MAP EDITS
-Icebox Arrivals
+# Icebox Arrivals
 [templates.icebox_arrivals]
 map_files = ["icebox_arrivals.dmm"]
 directory = "_maps/nova/automapper/templates/icebox/"
