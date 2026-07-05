@@ -38,3 +38,9 @@
   WhoLetMeDoThis:
   - rscadd: ~~Clumsiness,~~ Rock Eater, Hypermetabolic Blood, Epilepsy, and Two Left
       Feet are now available under the Genetic Mutation quirk.
+2026-07-05:
+  XeonMations:
+  - rscdel: Prisoners will no longer have tattoos forced upon them
+  - bugfix: Fixed the radio volume slider being missing in preferences
+  keygenpie:
+  - balance: Golem nutrition damage now depends on number of Golem limbs
