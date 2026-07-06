@@ -43,22 +43,6 @@ required_map = "MetaStation.dmm"
 coordinates = [133, 182, 1]
 trait_name = "Station"
 
-# Iris - Metastation Kitchen Cold Room
-[templates.metastation_kitchen_cold_room]
-map_files = ["metastation_kitchen_cold_room.dmm"]
-directory = "_maps/iris/automapper/templates/metastation/"
-required_map = "MetaStation.dmm"
-coordinates = [143, 119, 1]
-trait_name = "Station"
-
-# Iris - Metastation Permabrig
-[templates.metastation_permabrig]
-map_files = ["metastation_permabrig.dmm"]
-directory = "_maps/iris/automapper/templates/metastation/"
-required_map = "MetaStation.dmm"
-coordinates = [72, 186, 1]
-trait_name = "Station"
-
 # Metastation Barber
 [templates.metastation_barber]
 map_files = ["metastation_barber.dmm"]
@@ -107,30 +91,6 @@ required_map = "MetaStation.dmm"
 coordinates = [129, 121, 1]
 trait_name = "Station"
 
-# Iris - Metastation Kitchen Cold Room
-[templates.metastation_bridge_fax]
-map_files = ["metastation_bridge_fax.dmm"]
-directory = "_maps/iris/automapper/templates/metastation/"
-required_map = "MetaStation.dmm"
-coordinates = [115, 135, 1]
-trait_name = "Station"
-
-# Iris - Metastation Explorer Spawns
-[templates.metastation_explorer_spawns]
-map_files = ["metastation_explorer_spawns.dmm"]
-directory = "_maps/iris/automapper/templates/metastation/"
-required_map = "MetaStation.dmm"
-coordinates = [47, 166, 1]
-trait_name = "Station"
-
-# Iris - Metastation Captain Phone
-[templates.metastation_captain_phone]
-map_files = ["metastation_captain_phone.dmm"]
-directory = "_maps/iris/automapper/templates/metastation/"
-required_map = "MetaStation.dmm"
-coordinates = [121, 135, 1]
-trait_name = "Station"
-
 # DELTASTATION MAP EDITS
 # Deltastation Arrivals
 [templates.deltastation_arrivals]
@@ -154,14 +114,6 @@ map_files = ["deltastation_armory.dmm"]
 directory = "_maps/nova/automapper/templates/deltastation/"
 required_map = "DeltaStation2.dmm"
 coordinates = [210, 130, 1]
-trait_name = "Station"
-
-# Iris - Deltastation Kitchen Cold Room
-[templates.deltastation_kitchen_cold_room]
-map_files = ["deltastation_kitchen_cold_room.dmm"]
-directory = "_maps/iris/automapper/templates/deltastation/"
-required_map = "DeltaStation2.dmm"
-coordinates = [118, 150, 1]
 trait_name = "Station"
 
 # Deltastation Barber
@@ -194,30 +146,6 @@ map_files = ["deltastation_garden.dmm"]
 directory = "_maps/nova/automapper/templates/deltastation/"
 required_map = "DeltaStation2.dmm"
 coordinates = [151, 175, 1]
-trait_name = "Station"
-
-# Iris - Deltastation Bridge Fax
-[templates.deltastation_bridge_fax]
-map_files = ["deltastation_bridge_fax.dmm"]
-directory = "_maps/iris/automapper/templates/deltastation/"
-required_map = "DeltaStation2.dmm"
-coordinates = [158, 141, 1]
-trait_name = "Station"
-
-# Iris - Deltastation Explorer Spawns
-[templates.deltastation_explorer_spawns]
-map_files = ["deltastation_explorer_spawns.dmm"]
-directory = "_maps/iris/automapper/templates/deltastation/"
-required_map = "DeltaStation2.dmm"
-coordinates = [110, 189, 1]
-trait_name = "Station"
-
-# Iris - Deltastation Captain Phone
-[templates.deltastation_captain_phone]
-map_files = ["deltastation_captain_phone.dmm"]
-directory = "_maps/iris/automapper/templates/deltastation/"
-required_map = "DeltaStation2.dmm"
-coordinates = [160, 130, 1]
 trait_name = "Station"
 
 # Deltastation Bar Backroom
@@ -382,44 +310,12 @@ required_map = "tramstation.dmm"
 coordinates = [46, 109, 2]
 trait_name = "Station"
 
-# Iris - Tramstation Bridge Fax
-[templates.tramstation_bridge_fax]
-map_files = ["tramstation_bridge_fax.dmm"]
-directory = "_maps/iris/automapper/templates/tramstation/"
-required_map = "tramstation.dmm"
-coordinates = [75, 126, 2]
-trait_name = "Station"
-
-# Iris - Tramstation Explorer Spawns
-[templates.tramstation_explorer_spawns]
-map_files = ["tramstation_explorer_spawns.dmm"]
-directory = "_maps/iris/automapper/templates/tramstation/"
-required_map = "tramstation.dmm"
-coordinates = [189, 144, 2]
-trait_name = "Station"
-
-# Iris - Tramstation Captain Phone
-[templates.tramstation_captain_phone]
-map_files = ["tramstation_captain_phone.dmm"]
-directory = "_maps/iris/automapper/templates/tramstation/"
-required_map = "tramstation.dmm"
-coordinates = [85, 136, 2]
-trait_name = "Station"
-
 # Lavaland NE Ashwalker Fortress
 [templates.lavaland_ashwalker_fortress]
 map_files = ["lavaland_ashwalker_fortress.dmm"]
 directory = "_maps/nova/automapper/templates/mining/"
 required_map = "Lavaland.dmm"
 coordinates = [203, 223, 1]
-trait_name = "Mining"
-
-# Lavaland W Hermit Iris
-[templates.lavaland_hermit_iris]
-map_files = ["lavaland_hermit_iris.dmm"]
-directory = "_maps/iris/automapper/templates/mining/"
-required_map = "Lavaland.dmm"
-coordinates = [14, 168, 1]
 trait_name = "Mining"
 
 # Tramstation Bar Backroom
@@ -576,13 +472,6 @@ required_map = "NebulaStation.dmm"
 coordinates = [141, 117, 2]
 trait_name = "Station"
 
-# Iris - Nebulastation Bridge Fax
-[templates.nebulastation_bridge_fax]
-map_files = ["nebulastation_bridge_fax.dmm"]
-directory = "_maps/iris/automapper/templates/nebulastation/"
-required_map = "NebulaStation.dmm"
-coordinates = [205, 128, 1]
-
 # Nebulastation Bar Backroom
 [templates.nebulastation_bar_backroom]
 map_files = ["nebulastation_bar_backroom.dmm"]
@@ -591,79 +480,55 @@ required_map = "NebulaStation.dmm"
 coordinates = [87, 113, 2]
 trait_name = "Station"
 
-# Iris Nebulastation Bridge Stairs Lower
-[templates.nebulastation_bridge_stairs_lower]
-map_files = ["nebulastation_bridge_stairs_lower.dmm"]
-directory = "_maps/nova/automapper/templates/nebulastation/"
-required_map = "NebulaStation.dmm"
-coordinates = [192, 136, 1]
-trait_name = "Station"
-
-# Iris Nebulastation Bridge Stairs Upper
-[templates.nebulastation_bridge_stairs_upper]
-map_files = ["nebulastation_bridge_stairs_upper.dmm"]
-directory = "_maps/nova/automapper/templates/nebulastation/"
-required_map = "NebulaStation.dmm"
-coordinates = [192, 136, 2]
-trait_name = "Station"
-
-# Iris - Nebulastation Exploration Office
-[templates.nebulastation_exploration_office_v2]
-map_files = ["nebulastation_exploration_office_v2.dmm"]
-directory = "_maps/iris/automapper/templates/nebulastation/"
-required_map = "NebulaStation.dmm"
-coordinates = [146 , 177, 1]
-trait_name = "Station"
-
-# Iris - Nebulastation Captain Phone
-[templates.nebulastation_captain_phone]
-map_files = ["nebulastation_captain_phone.dmm"]
-directory = "_maps/iris/automapper/templates/nebulastation/"
-required_map = "NebulaStation.dmm"
-coordinates = [179, 130, 1]
-trait_name = "Station"
-
-# Catwalkstation Supermatter
+#Catwalkstation Supermatter
 [templates.catwalkstation_supermatter]
 map_files = ["catwalkstation_supermatter.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
 required_map = "CatwalkStation_2023.dmm"
-coordinates = [172, 163, 1]
+coordinates = [173, 163, 1]
 trait_name = "Station"
 
-# Catwalkstation NTRep Office
+#Catwalkstation NTRep Office
 [templates.catwalkstation_ntrep_office]
 map_files = ["catwalkstation_ntrep_office.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
 required_map = "CatwalkStation_2023.dmm"
-coordinates = [114, 150, 1]
+coordinates = [115, 123, 1]
 trait_name = "Station"
 
-# Catwalkstation Arrivals
+#Catwalkstation NTRep Office Upper
+[templates.catwalkstation_ntrep_office_upper]
+map_files = ["catwalkstation_ntrep_office_upper.dmm"]
+directory = "_maps/nova/automapper/templates/catwalkstation/"
+required_map = "CatwalkStation_2023.dmm"
+coordinates = [115, 123, 2]
+trait_name = "Station"
+
+#Catwalkstation Arrivals
 [templates.catwalkstation_arrivals]
 map_files = ["catwalkstation_arrivals.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
 required_map = "CatwalkStation_2023.dmm"
-coordinates = [120, 66, 1]
+coordinates = [120, 65, 1]
 trait_name = "Station"
 
-# Catwalkstation Cryo
+#Catwalkstation Cryo
 [templates.catwalkstation_cryo]
 map_files = ["catwalkstation_cryo.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
 required_map = "CatwalkStation_2023.dmm"
-coordinates = [132, 149, 1]
+coordinates = [129, 151, 1]
 trait_name = "Station"
 
-# Catwalkstation Armory
+#Catwalkstation Armory
 [templates.catwalkstation_armory]
 map_files = ["catwalkstation_armory.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
 required_map = "CatwalkStation_2023.dmm"
-coordinates = [68, 129, 2]
+coordinates = [64, 131, 2]
 trait_name = "Station"
 
-# Catwalkstation Barber
+#Catwalkstation Barber
 [templates.catwalkstation_barber]
 map_files = ["catwalkstation_barber.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
@@ -671,7 +536,7 @@ required_map = "CatwalkStation_2023.dmm"
 coordinates = [99, 135, 1]
 trait_name = "Station"
 
-# Catwalkstation Bar Backroom
+#Catwalkstation Bar Backroom
 [templates.catwalkstation_bar_backroom]
 map_files = ["catwalkstation_bar_backroom.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
@@ -727,6 +592,151 @@ required_map = "SerenityStation.dmm"
 coordinates = [132, 133, 2]
 trait_name = "Station"
 
+# Iris - Metastation Kitchen Cold Room
+[templates.metastation_kitchen_cold_room]
+map_files = ["metastation_kitchen_cold_room.dmm"]
+directory = "_maps/iris/automapper/templates/metastation/"
+required_map = "MetaStation.dmm"
+coordinates = [143, 119, 1]
+trait_name = "Station"
+
+# Iris - Metastation Permabrig
+[templates.metastation_permabrig]
+map_files = ["metastation_permabrig.dmm"]
+directory = "_maps/iris/automapper/templates/metastation/"
+required_map = "MetaStation.dmm"
+coordinates = [72, 186, 1]
+trait_name = "Station"
+
+# Iris - Metastation Kitchen Cold Room
+[templates.metastation_bridge_fax]
+map_files = ["metastation_bridge_fax.dmm"]
+directory = "_maps/iris/automapper/templates/metastation/"
+required_map = "MetaStation.dmm"
+coordinates = [115, 135, 1]
+trait_name = "Station"
+
+# Iris - Metastation Explorer Spawns
+[templates.metastation_explorer_spawns]
+map_files = ["metastation_explorer_spawns.dmm"]
+directory = "_maps/iris/automapper/templates/metastation/"
+required_map = "MetaStation.dmm"
+coordinates = [47, 166, 1]
+trait_name = "Station"
+
+# Iris - Metastation Captain Phone
+[templates.metastation_captain_phone]
+map_files = ["metastation_captain_phone.dmm"]
+directory = "_maps/iris/automapper/templates/metastation/"
+required_map = "MetaStation.dmm"
+coordinates = [121, 135, 1]
+trait_name = "Station"
+
+# Iris - Deltastation Kitchen Cold Room
+[templates.deltastation_kitchen_cold_room]
+map_files = ["deltastation_kitchen_cold_room.dmm"]
+directory = "_maps/iris/automapper/templates/deltastation/"
+required_map = "DeltaStation2.dmm"
+coordinates = [118, 150, 1]
+trait_name = "Station"
+
+# Iris - Deltastation Bridge Fax
+[templates.deltastation_bridge_fax]
+map_files = ["deltastation_bridge_fax.dmm"]
+directory = "_maps/iris/automapper/templates/deltastation/"
+required_map = "DeltaStation2.dmm"
+coordinates = [158, 141, 1]
+trait_name = "Station"
+
+# Iris - Deltastation Explorer Spawns
+[templates.deltastation_explorer_spawns]
+map_files = ["deltastation_explorer_spawns.dmm"]
+directory = "_maps/iris/automapper/templates/deltastation/"
+required_map = "DeltaStation2.dmm"
+coordinates = [110, 189, 1]
+trait_name = "Station"
+
+# Iris - Deltastation Captain Phone
+[templates.deltastation_captain_phone]
+map_files = ["deltastation_captain_phone.dmm"]
+directory = "_maps/iris/automapper/templates/deltastation/"
+required_map = "DeltaStation2.dmm"
+coordinates = [160, 130, 1]
+trait_name = "Station"
+
+# Iris - Tramstation Bridge Fax
+[templates.tramstation_bridge_fax]
+map_files = ["tramstation_bridge_fax.dmm"]
+directory = "_maps/iris/automapper/templates/tramstation/"
+required_map = "tramstation.dmm"
+coordinates = [75, 126, 2]
+trait_name = "Station"
+
+# Iris - Tramstation Explorer Spawns
+[templates.tramstation_explorer_spawns]
+map_files = ["tramstation_explorer_spawns.dmm"]
+directory = "_maps/iris/automapper/templates/tramstation/"
+required_map = "tramstation.dmm"
+coordinates = [189, 144, 2]
+trait_name = "Station"
+
+# Iris - Tramstation Captain Phone
+[templates.tramstation_captain_phone]
+map_files = ["tramstation_captain_phone.dmm"]
+directory = "_maps/iris/automapper/templates/tramstation/"
+required_map = "tramstation.dmm"
+coordinates = [85, 136, 2]
+trait_name = "Station"
+
+# Iris - Lavaland W Hermit
+[templates.lavaland_hermit_iris]
+map_files = ["lavaland_hermit_iris.dmm"]
+directory = "_maps/iris/automapper/templates/mining/"
+required_map = "Lavaland.dmm"
+coordinates = [14, 168, 1]
+trait_name = "Mining"
+
+
+# Iris - Nebulastation Bridge Fax
+[templates.nebulastation_bridge_fax]
+map_files = ["nebulastation_bridge_fax.dmm"]
+directory = "_maps/iris/automapper/templates/nebulastation/"
+required_map = "NebulaStation.dmm"
+coordinates = [205, 128, 1]
+
+
+# Iris Nebulastation Bridge Stairs Lower
+[templates.nebulastation_bridge_stairs_lower]
+map_files = ["nebulastation_bridge_stairs_lower.dmm"]
+directory = "_maps/nova/automapper/templates/nebulastation/"
+required_map = "NebulaStation.dmm"
+coordinates = [192, 136, 1]
+trait_name = "Station"
+
+# Iris Nebulastation Bridge Stairs Upper
+[templates.nebulastation_bridge_stairs_upper]
+map_files = ["nebulastation_bridge_stairs_upper.dmm"]
+directory = "_maps/nova/automapper/templates/nebulastation/"
+required_map = "NebulaStation.dmm"
+coordinates = [192, 136, 2]
+trait_name = "Station"
+
+# Iris - Nebulastation Exploration Office
+[templates.nebulastation_exploration_office_v2]
+map_files = ["nebulastation_exploration_office_v2.dmm"]
+directory = "_maps/iris/automapper/templates/nebulastation/"
+required_map = "NebulaStation.dmm"
+coordinates = [146 , 177, 1]
+trait_name = "Station"
+
+# Iris - Nebulastation Captain Phone
+[templates.nebulastation_captain_phone]
+map_files = ["nebulastation_captain_phone.dmm"]
+directory = "_maps/iris/automapper/templates/nebulastation/"
+required_map = "NebulaStation.dmm"
+coordinates = [179, 130, 1]
+trait_name = "Station"
+
 # Oculis - Serenitystation Bouncer Office
 [templates.serenitystation_bouncer_office]
 map_files = ["serenitystation_bouncer_office.dmm"]
@@ -742,4 +752,3 @@ directory = "_maps/iris/automapper/templates/oceanpubby/"
 required_map = "oceanpubby.dmm"
 coordinates = [139, 172, 1]
 trait_name = "Station"
-
