@@ -631,7 +631,7 @@ required_map = "NebulaStation.dmm"
 coordinates = [179, 130, 1]
 trait_name = "Station"
 
-#Catwalkstation Supermatter
+# Catwalkstation Supermatter
 [templates.catwalkstation_supermatter]
 map_files = ["catwalkstation_supermatter.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
@@ -639,7 +639,7 @@ required_map = "CatwalkStation_2023.dmm"
 coordinates = [172, 163, 1]
 trait_name = "Station"
 
-#Catwalkstation NTRep Office
+# Catwalkstation NTRep Office
 [templates.catwalkstation_ntrep_office]
 map_files = ["catwalkstation_ntrep_office.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
@@ -647,7 +647,7 @@ required_map = "CatwalkStation_2023.dmm"
 coordinates = [114, 150, 1]
 trait_name = "Station"
 
-#Catwalkstation Arrivals
+# Catwalkstation Arrivals
 [templates.catwalkstation_arrivals]
 map_files = ["catwalkstation_arrivals.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
@@ -655,7 +655,7 @@ required_map = "CatwalkStation_2023.dmm"
 coordinates = [120, 66, 1]
 trait_name = "Station"
 
-#Catwalkstation Cryo
+# Catwalkstation Cryo
 [templates.catwalkstation_cryo]
 map_files = ["catwalkstation_cryo.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
@@ -663,7 +663,7 @@ required_map = "CatwalkStation_2023.dmm"
 coordinates = [132, 149, 1]
 trait_name = "Station"
 
-#Catwalkstation Armory
+# Catwalkstation Armory
 [templates.catwalkstation_armory]
 map_files = ["catwalkstation_armory.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
@@ -671,12 +671,20 @@ required_map = "CatwalkStation_2023.dmm"
 coordinates = [68, 129, 2]
 trait_name = "Station"
 
-#Catwalkstation Barber
+# Catwalkstation Barber
 [templates.catwalkstation_barber]
 map_files = ["catwalkstation_barber.dmm"]
 directory = "_maps/nova/automapper/templates/catwalkstation/"
 required_map = "CatwalkStation_2023.dmm"
 coordinates = [99, 135, 1]
+trait_name = "Station"
+
+# Catwalkstation Bar Backroom
+[templates.catwalkstation_bar_backroom]
+map_files = ["catwalkstation_bar_backroom.dmm"]
+directory = "_maps/nova/automapper/templates/catwalkstation/"
+required_map = "CatwalkStation_2023.dmm"
+coordinates = [92, 145, 1]
 trait_name = "Station"
 
 # Iris - VoidRaptor Medbay Cold Room
@@ -743,10 +751,3 @@ required_map = "oceanpubby.dmm"
 coordinates = [139, 172, 1]
 trait_name = "Station"
 
-#Catwalkstation Bar Backroom
-[templates.catwalkstation_bar_backroom]
-map_files = ["catwalkstation_bar_backroom.dmm"]
-directory = "_maps/nova/automapper/templates/catwalkstation/"
-required_map = "CatwalkStation_2023.dmm"
-coordinates = [92, 145, 1]
-trait_name = "Station"
