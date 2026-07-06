@@ -591,14 +591,6 @@ required_map = "NebulaStation.dmm"
 coordinates = [87, 113, 2]
 trait_name = "Station"
 
-# Catwalkstation Supermatter
-[templates.catwalkstation_supermatter]
-map_files = ["catwalkstation_supermatter.dmm"]
-directory = "_maps/nova/automapper/templates/catwalkstation/"
-required_map = "CatwalkStation_2023.dmm"
-coordinates = [173, 163, 1]
-trait_name = "Station"
-
 # Iris Nebulastation Bridge Stairs Lower
 [templates.nebulastation_bridge_stairs_lower]
 map_files = ["nebulastation_bridge_stairs_lower.dmm"]
