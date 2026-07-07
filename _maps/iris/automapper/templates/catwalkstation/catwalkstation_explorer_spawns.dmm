@@ -216,9 +216,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/openspace,
 /area/station/maintenance/starboard/central/upper)
-"xs" = (
-/turf/open/space/openspace,
-/area/template_noop)
 "xA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/stripes/line{
@@ -326,7 +323,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/template_noop)
+/area/station/cargo/storage)
 "Jo" = (
 /obj/item/ammo_casing/spent{
 	pixel_x = -11;
@@ -729,20 +726,20 @@ hJ
 sr
 "}
 (21,1,1) = {"
-xs
-xs
+sr
+sr
 mW
 ZV
 mW
-xs
+sr
 sr
 "}
 (22,1,1) = {"
-xs
-xs
+sr
+sr
 eJ
 rb
 Pn
-xs
+sr
 sr
 "}
