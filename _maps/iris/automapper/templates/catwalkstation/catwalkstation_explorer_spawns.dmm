@@ -15,9 +15,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/smooth_corner{
-	dir = 4
+/obj/machinery/door/airlock/mining{
+	name = "Exploration Office"
 	},
+/obj/effect/landmark/navigate_destination/exploration_office,
+/obj/effect/mapping_helpers/airlock/access/all/command/gateway,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth_large,
 /area/station/cargo/exploration_office)
 "bq" = (
 /obj/machinery/door/airlock/external/glass{
@@ -44,9 +48,8 @@
 "cG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/table/reinforced,
-/obj/machinery/recharger,
-/obj/machinery/light/directional/north,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/structure/cable,
 /turf/open/floor/iron/smooth_half,
 /area/station/cargo/exploration_office)
 "dt" = (
@@ -87,11 +90,16 @@
 /turf/open/floor/catwalk_floor,
 /area/station/maintenance/starboard/central/upper)
 "eJ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/open/floor/iron/smooth_half,
-/area/station/cargo/exploration_office)
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/marker_beacon/indigo{
+	pixel_x = -12;
+	pixel_y = -12
+	},
+/turf/open/space/openspace,
+/area/space/nearstation)
 "gd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -146,28 +154,26 @@
 /turf/open/floor/plating,
 /area/station/cargo/exploration_office)
 "qF" = (
-/obj/machinery/dive_anchor,
-/turf/open/space/openspace,
-/area/space)
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
 "rb" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
-	dir = 5
-	},
-/obj/structure/marker_beacon/indigo{
-	pixel_x = -12;
-	pixel_y = -12
+	dir = 4
 	},
 /turf/open/space/openspace,
-/area/space)
+/area/space/nearstation)
 "rJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/turf/open/floor/iron/smooth_half{
-	dir = 1
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth_corner{
+	dir = 4
 	},
 /area/station/cargo/exploration_office)
 "sg" = (
@@ -179,8 +185,8 @@
 	},
 /area/station/cargo/exploration_office)
 "sr" = (
-/turf/open/space/openspace,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "tQ" = (
 /obj/item/ammo_casing/spent{
 	pixel_x = 8;
@@ -211,16 +217,8 @@
 /turf/open/openspace,
 /area/station/maintenance/starboard/central/upper)
 "xs" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 6
-	},
-/obj/structure/marker_beacon/indigo{
-	pixel_y = 12;
-	pixel_x = -12
-	},
 /turf/open/space/openspace,
-/area/space)
+/area/template_noop)
 "xA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/stripes/line{
@@ -276,10 +274,21 @@
 /turf/open/floor/plating,
 /area/station/cargo/exploration_office)
 "Er" = (
-/obj/machinery/power/apc/auto_name/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_x = 2
+	},
+/obj/structure/cable,
 /turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"Ev" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table/reinforced,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth_corner,
 /area/station/cargo/exploration_office)
 "EB" = (
 /obj/effect/turf_decal/stripes/line,
@@ -309,16 +318,15 @@
 /turf/open/floor/plating,
 /area/station/cargo/exploration_office)
 "Iw" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/mining{
-	name = "Exploration Office"
-	},
-/obj/effect/landmark/navigate_destination/exploration_office,
-/obj/effect/mapping_helpers/airlock/access/all/command/gateway,
-/turf/open/floor/iron/smooth_large,
-/area/station/cargo/exploration_office)
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/template_noop)
 "Jo" = (
 /obj/item/ammo_casing/spent{
 	pixel_x = -11;
@@ -401,10 +409,14 @@
 "Pn" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
-	dir = 4
+	dir = 6
+	},
+/obj/structure/marker_beacon/indigo{
+	pixel_y = 12;
+	pixel_x = -12
 	},
 /turf/open/space/openspace,
-/area/space)
+/area/space/nearstation)
 "Po" = (
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/iron/smooth_half,
@@ -449,8 +461,13 @@
 "SJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/table/reinforced,
-/turf/open/floor/iron/smooth_corner,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
 /area/station/cargo/exploration_office)
 "SV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -500,9 +517,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/table/reinforced,
-/obj/machinery/cell_charger{
-	pixel_x = 2
-	},
+/obj/machinery/recharger,
+/obj/machinery/light/directional/north,
+/obj/structure/cable,
 /turf/open/floor/iron/smooth_half,
 /area/station/cargo/exploration_office)
 "Yx" = (
@@ -527,9 +544,9 @@
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
 "ZV" = (
-/obj/structure/lattice/catwalk,
+/obj/machinery/dive_anchor,
 /turf/open/space/openspace,
-/area/space)
+/area/space/nearstation)
 
 (1,1,1) = {"
 tQ
@@ -538,6 +555,7 @@ dt
 Kr
 eI
 aj
+sr
 "}
 (2,1,1) = {"
 gd
@@ -546,10 +564,12 @@ Kf
 SV
 Kf
 Kf
+sr
 "}
 (3,1,1) = {"
 aj
 Kf
+Ev
 SJ
 rJ
 aP
@@ -558,34 +578,38 @@ Iw
 (4,1,1) = {"
 wD
 Yx
-cG
+XV
 PR
 Po
 Yx
+sr
 "}
 (5,1,1) = {"
 zC
 Yx
-XV
+Er
 hb
 tZ
 Yx
+sr
 "}
 (6,1,1) = {"
 zC
 Yx
-eJ
+cG
 aw
 xE
 Yx
+sr
 "}
 (7,1,1) = {"
 Kf
 Yx
-Er
+qF
 hb
 TN
 Yx
+sr
 "}
 (8,1,1) = {"
 Kf
@@ -594,6 +618,7 @@ Av
 hb
 kh
 qf
+sr
 "}
 (9,1,1) = {"
 Kf
@@ -602,6 +627,7 @@ hb
 Uq
 kh
 qf
+sr
 "}
 (10,1,1) = {"
 qf
@@ -610,6 +636,7 @@ sg
 RD
 jB
 qf
+sr
 "}
 (11,1,1) = {"
 qf
@@ -618,6 +645,7 @@ RK
 Us
 tZ
 qf
+sr
 "}
 (12,1,1) = {"
 qf
@@ -626,6 +654,7 @@ KU
 EB
 tZ
 qf
+sr
 "}
 (13,1,1) = {"
 Kf
@@ -634,6 +663,7 @@ xA
 if
 Kp
 qf
+sr
 "}
 (14,1,1) = {"
 Kf
@@ -642,6 +672,7 @@ Kf
 bq
 Kf
 Kf
+sr
 "}
 (15,1,1) = {"
 JR
@@ -650,6 +681,7 @@ by
 Cm
 Zs
 qf
+sr
 "}
 (16,1,1) = {"
 JR
@@ -658,6 +690,7 @@ GJ
 Oh
 KP
 qf
+sr
 "}
 (17,1,1) = {"
 Uk
@@ -666,6 +699,7 @@ Kf
 XG
 Kf
 Kf
+sr
 "}
 (18,1,1) = {"
 JC
@@ -674,6 +708,7 @@ Ly
 FR
 ai
 ai
+sr
 "}
 (19,1,1) = {"
 mW
@@ -682,6 +717,7 @@ ai
 FR
 ai
 ai
+sr
 "}
 (20,1,1) = {"
 BA
@@ -690,18 +726,21 @@ ZK
 FN
 Pz
 hJ
+sr
 "}
 (21,1,1) = {"
-sr
-sr
+xs
+xs
+mW
 ZV
-qF
-ZV
+mW
+xs
 sr
 "}
 (22,1,1) = {"
-sr
-sr
+xs
+xs
+eJ
 rb
 Pn
 xs

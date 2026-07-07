@@ -741,5 +741,5 @@ trait_name = "Station"
 map_files = ["catwalkstation_explorer_spawns.dmm"]
 directory = "_maps/iris/automapper/templates/catwalkstation/"
 required_map = "CatwalkStation_2023.dmm"
-coordinates = [167, 128, 2]
+coordinates = [167, 127, 2]
 trait_name = "Station"
