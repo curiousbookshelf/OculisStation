@@ -16,6 +16,10 @@
 	expected_types += subtypesof(/obj/item/stamp/head)
 	expected_types += subtypesof(/obj/machinery/modular_computer/preset/cargochat)
 	expected_types += subtypesof(/obj/machinery/fax/heads)
+	// OCULIS EDIT ADDITION START
+	expected_types += /obj/machinery/phone_base/rotary/head_of_staff
+	expected_types += /obj/structure/phone_base/captain
+	// OCULIS EDIT ADDITION END
 
 	expected_types += /mob/living/basic/parrot/poly
 	expected_types += /mob/living/basic/pet/dog/corgi/ian
