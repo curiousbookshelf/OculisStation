@@ -696,14 +696,13 @@ required_map = "Lavaland.dmm"
 coordinates = [14, 168, 1]
 trait_name = "Mining"
 
-
 # Iris - Nebulastation Bridge Fax
 [templates.nebulastation_bridge_fax]
 map_files = ["nebulastation_bridge_fax.dmm"]
 directory = "_maps/iris/automapper/templates/nebulastation/"
 required_map = "NebulaStation.dmm"
 coordinates = [205, 128, 1]
-
+trait_name = "Station"
 
 # Iris Nebulastation Bridge Stairs Lower
 [templates.nebulastation_bridge_stairs_lower]

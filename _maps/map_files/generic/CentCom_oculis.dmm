@@ -27061,11 +27061,11 @@
 "wjd" = (
 /obj/docking_port/stationary{
 	dwidth = 8;
-	height = 7;
+	height = 8;
 	json_key = "cargo";
 	name = "SectCom";
 	shuttle_id = "cargo_away";
-	width = 20
+	width = 21
 	},
 /turf/open/floor/engine,
 /area/centcom/central_command_areas/supply)
@@ -76933,7 +76933,7 @@ aaa
 aaa
 aaa
 lIe
-nNy
+mZd
 sLf
 sLf
 sLf
@@ -77190,16 +77190,16 @@ aaa
 aaa
 aaa
 lIe
-aql
-peW
-peW
-peW
-peW
-peW
-mKR
-peW
-peW
-oQB
+nNy
+sLf
+sLf
+sLf
+sLf
+sLf
+sLf
+sLf
+sLf
+bcm
 lIe
 aaa
 aaa
@@ -77447,16 +77447,16 @@ aaa
 aaa
 aaa
 lIe
-lIe
-lIe
-lIe
-lIe
-lIe
-lIe
-lIe
-lIe
-lIe
-lIe
+aql
+peW
+peW
+peW
+peW
+peW
+mKR
+peW
+peW
+oQB
 lIe
 aaa
 aaa
@@ -77703,18 +77703,18 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+lIe
+lIe
+lIe
+lIe
+lIe
+lIe
+lIe
+lIe
+lIe
+lIe
+lIe
+lIe
 aaa
 aaa
 aaa
