@@ -1,0 +1,709 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ai" = (
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"aj" = (
+/turf/closed/wall,
+/area/station/maintenance/starboard/central/upper)
+"aw" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_large,
+/area/station/cargo/exploration_office)
+"aP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/smooth_corner{
+	dir = 4
+	},
+/area/station/cargo/exploration_office)
+"bq" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Exploration Office Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/gateway,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"by" = (
+/obj/machinery/suit_storage_unit/explorer,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"cG" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"dt" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/starboard/central/upper)
+"dW" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/item/multitool{
+	pixel_x = -7;
+	pixel_y = 2
+	},
+/obj/item/stack/impure_telecrystal{
+	pixel_x = -6;
+	pixel_y = -2
+	},
+/obj/item/stack/rods/twentyfive{
+	pixel_x = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"ec" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/smooth_corner{
+	dir = 8
+	},
+/area/station/cargo/exploration_office)
+"eI" = (
+/obj/effect/spawner/random/structure/crate_loot,
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/starboard/central/upper)
+"eJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"gd" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/sign/poster/contraband/communist_state/directional/east,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/starboard/central/upper)
+"hb" = (
+/turf/open/floor/iron/smooth_large,
+/area/station/cargo/exploration_office)
+"hh" = (
+/obj/structure/closet/generic/wall/empty{
+	pixel_y = 25
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/smooth_corner,
+/area/station/cargo/exploration_office)
+"hJ" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"if" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/landmark/start/explorer,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"jB" = (
+/obj/machinery/suit_storage_unit/explorer,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/smooth_edge,
+/area/station/cargo/exploration_office)
+"kh" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/suit_storage_unit/explorer,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"mW" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/openspace,
+/area/space/nearstation)
+"qf" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"qF" = (
+/obj/machinery/dive_anchor,
+/turf/open/space/openspace,
+/area/space)
+"rb" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/marker_beacon/indigo{
+	pixel_x = -12;
+	pixel_y = -12
+	},
+/turf/open/space/openspace,
+/area/space)
+"rJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/cargo/exploration_office)
+"sg" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/cargo/exploration_office)
+"sr" = (
+/turf/open/space/openspace,
+/area/space)
+"tQ" = (
+/obj/item/ammo_casing/spent{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/ammo_casing/spent{
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/starboard/central/upper)
+"tZ" = (
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"vv" = (
+/obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"wD" = (
+/obj/structure/lattice/catwalk,
+/turf/open/openspace,
+/area/station/maintenance/starboard/central/upper)
+"xs" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/structure/marker_beacon/indigo{
+	pixel_y = 12;
+	pixel_x = -12
+	},
+/turf/open/space/openspace,
+/area/space)
+"xA" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light_switch/directional/east,
+/obj/machinery/light/directional/east,
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"xE" = (
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"zC" = (
+/obj/effect/spawner/random/maintenance,
+/obj/structure/rack,
+/obj/structure/lattice/catwalk,
+/turf/open/openspace,
+/area/station/maintenance/starboard/central/upper)
+"Av" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/explorer,
+/turf/open/floor/iron/smooth_corner{
+	dir = 1
+	},
+/area/station/cargo/exploration_office)
+"BA" = (
+/obj/structure/lattice,
+/turf/open/space/openspace,
+/area/space/nearstation)
+"BI" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"Cm" = (
+/obj/machinery/atmospherics/components/unary/airlock_pump/unbolt_only{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"Er" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"EB" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"FN" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"FR" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"GJ" = (
+/obj/machinery/suit_storage_unit/explorer,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"Iw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/mining{
+	name = "Exploration Office"
+	},
+/obj/effect/landmark/navigate_destination/exploration_office,
+/obj/effect/mapping_helpers/airlock/access/all/command/gateway,
+/turf/open/floor/iron/smooth_large,
+/area/station/cargo/exploration_office)
+"Jo" = (
+/obj/item/ammo_casing/spent{
+	pixel_x = -11;
+	pixel_y = -5
+	},
+/obj/item/ammo_casing/spent{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/starboard/central/upper)
+"JC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/ladder,
+/turf/open/space/openspace,
+/area/space/nearstation)
+"JR" = (
+/obj/structure/lattice,
+/turf/open/openspace,
+/area/station/maintenance/starboard/central/upper)
+"Kf" = (
+/turf/closed/wall,
+/area/station/cargo/exploration_office)
+"Kp" = (
+/obj/machinery/computer/anchor_controller{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"Kr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/starboard/central/upper)
+"KP" = (
+/obj/machinery/suit_storage_unit/explorer,
+/obj/structure/sign/warning/vacuum/external/directional/east,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"KU" = (
+/obj/machinery/dive_anchor/stationary,
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"Ln" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 5
+	},
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"Ly" = (
+/obj/structure/sign/warning/directional/west,
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"NO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"Oh" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"Pn" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/space/openspace,
+/area/space)
+"Po" = (
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"Pz" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/indigo{
+	pixel_y = 12;
+	pixel_x = 12
+	},
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"PR" = (
+/obj/effect/landmark/start/explorer,
+/turf/open/floor/iron/smooth_large,
+/area/station/cargo/exploration_office)
+"RD" = (
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/cargo/exploration_office)
+"RK" = (
+/obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/landmark/start/explorer,
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"SC" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"SJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/smooth_corner,
+/area/station/cargo/exploration_office)
+"SV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"TN" = (
+/obj/machinery/firealarm/directional/south,
+/obj/effect/turf_decal/bot,
+/obj/machinery/suit_storage_unit/explorer,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"Uk" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/central/upper)
+"Uq" = (
+/obj/effect/spawner/random/engineering/tracking_beacon,
+/turf/open/floor/iron/smooth_large,
+/area/station/cargo/exploration_office)
+"Us" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/engine,
+/area/station/cargo/exploration_office)
+"XG" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Exploration Office Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/gateway,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"XV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_x = 2
+	},
+/turf/open/floor/iron/smooth_half,
+/area/station/cargo/exploration_office)
+"Yx" = (
+/turf/closed/wall/r_wall,
+/area/station/cargo/exploration_office)
+"Zs" = (
+/obj/machinery/suit_storage_unit/explorer,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
+/area/station/cargo/exploration_office)
+"ZK" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/indigo{
+	pixel_x = 12;
+	pixel_y = -12
+	},
+/turf/open/floor/engine/hull,
+/area/space/nearstation)
+"ZV" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/openspace,
+/area/space)
+
+(1,1,1) = {"
+tQ
+Jo
+dt
+Kr
+eI
+aj
+"}
+(2,1,1) = {"
+gd
+Kf
+Kf
+SV
+Kf
+Kf
+"}
+(3,1,1) = {"
+aj
+Kf
+SJ
+rJ
+aP
+Iw
+"}
+(4,1,1) = {"
+wD
+Yx
+cG
+PR
+Po
+Yx
+"}
+(5,1,1) = {"
+zC
+Yx
+XV
+hb
+tZ
+Yx
+"}
+(6,1,1) = {"
+zC
+Yx
+eJ
+aw
+xE
+Yx
+"}
+(7,1,1) = {"
+Kf
+Yx
+Er
+hb
+TN
+Yx
+"}
+(8,1,1) = {"
+Kf
+hh
+Av
+hb
+kh
+qf
+"}
+(9,1,1) = {"
+Kf
+vv
+hb
+Uq
+kh
+qf
+"}
+(10,1,1) = {"
+qf
+ec
+sg
+RD
+jB
+qf
+"}
+(11,1,1) = {"
+qf
+dW
+RK
+Us
+tZ
+qf
+"}
+(12,1,1) = {"
+qf
+NO
+KU
+EB
+tZ
+qf
+"}
+(13,1,1) = {"
+Kf
+BI
+xA
+if
+Kp
+qf
+"}
+(14,1,1) = {"
+Kf
+Kf
+Kf
+bq
+Kf
+Kf
+"}
+(15,1,1) = {"
+JR
+qf
+by
+Cm
+Zs
+qf
+"}
+(16,1,1) = {"
+JR
+qf
+GJ
+Oh
+KP
+qf
+"}
+(17,1,1) = {"
+Uk
+Kf
+Kf
+XG
+Kf
+Kf
+"}
+(18,1,1) = {"
+JC
+SC
+Ly
+FR
+ai
+ai
+"}
+(19,1,1) = {"
+mW
+SC
+ai
+FR
+ai
+ai
+"}
+(20,1,1) = {"
+BA
+Ln
+ZK
+FN
+Pz
+hJ
+"}
+(21,1,1) = {"
+sr
+sr
+ZV
+qF
+ZV
+sr
+"}
+(22,1,1) = {"
+sr
+sr
+rb
+Pn
+xs
+sr
+"}

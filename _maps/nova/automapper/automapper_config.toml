@@ -735,3 +735,11 @@ directory = "_maps/iris/automapper/templates/catwalkstation/"
 required_map = "CatwalkStation_2023.dmm"
 coordinates = [119, 58, 1]
 trait_name = "Station"
+
+# Oculis - Catwalkstation Explorer Spawns
+[templates.catwalkstation_explorer_spawns]
+map_files = ["catwalkstation_explorer_spawns.dmm"]
+directory = "_maps/iris/automapper/templates/catwalkstation/"
+required_map = "CatwalkStation_2023.dmm"
+coordinates = [167, 128, 2]
+trait_name = "Station"
