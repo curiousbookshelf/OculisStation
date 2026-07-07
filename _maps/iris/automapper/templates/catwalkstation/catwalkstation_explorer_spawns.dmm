@@ -249,7 +249,6 @@
 /turf/open/space/openspace,
 /area/space/nearstation)
 "BI" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -388,7 +387,6 @@
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
 "NO" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
