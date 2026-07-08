@@ -1302,10 +1302,13 @@
 	icon_state = "detective"
 	toysay = "This airlock has grey jumpsuit and insulated glove fibers on it."
 
+
+/* // OCULIS EDIT REMOVAL START
 /obj/item/toy/figure/dsquad
 	name = "\improper Deathsquad Officer action figure"
 	icon_state = "dsquad"
 	toysay = "Kill 'em all!"
+*/ // OCULIS EDIT REMOVAL END
 
 /obj/item/toy/figure/engineer
 	name = "\improper Station Engineer action figure"

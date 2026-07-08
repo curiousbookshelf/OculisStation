@@ -9,7 +9,6 @@
 	var/icon/barsign_icon = initial(barsign_type.icon)
 	var/list/barsign_icon_states = icon_states(barsign_icon)
 	barsign_icon_states += icon_states(NOVA_BARSIGN_FILE) // NOVA EDIT ADDITION - Need to check modular barsigns
-	barsign_icon_states += icon_states(NOVA_LARGE_BARSIGN_FILE) // NOVA EDIT ADDITION - Need to check modular  barsigns
 
 	// Check every datum real bar sign
 	for(var/sign_type in (subtypesof(/datum/barsign) - /datum/barsign/hiddensigns))

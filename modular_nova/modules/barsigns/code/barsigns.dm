@@ -6,11 +6,8 @@
 		icon = initial(icon)
 		return
 
-	// uses modular icon file
-	if(istype(chosen_sign, /datum/barsign/nova/large))
-		icon = NOVA_LARGE_BARSIGN_FILE
-	else
-		icon = NOVA_BARSIGN_FILE
+
+	icon = NOVA_BARSIGN_FILE
 
 /datum/barsign/nova/spaceballgrille
 	name = "Spaceball Grille"
