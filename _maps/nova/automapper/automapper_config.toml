@@ -759,3 +759,11 @@ directory = "_maps/iris/automapper/templates/snowglobe/"
 required_map = "snowglobe.dmm"
 coordinates = [157, 188, 3]
 trait_name = "Station"
+
+# Oculis - Deltastation Explorer Spawns
+[templates.deltastation_explorer_spawns]
+map_files = ["deltastation_explorer_spawns.dmm"]
+directory = "_maps/iris/automapper/templates/deltastation/"
+required_map = "DeltaStation2.dmm"
+coordinates = [110, 189, 1]
+trait_name = "Station"
