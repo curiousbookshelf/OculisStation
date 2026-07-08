@@ -23853,10 +23853,6 @@
 "ioZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/dresser,
-/obj/item/toy/figure/dsquad{
-	pixel_x = 6;
-	pixel_y = 12
-	},
 /obj/item/toy/figure/secofficer{
 	pixel_x = -6;
 	pixel_y = 12
@@ -32979,7 +32975,6 @@
 /turf/open/floor/circuit,
 /area/station/science/robotics/lab)
 "lrV" = (
-/obj/structure/sign/poster/official/enlist/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/carpet/red,
 /area/station/security/warden)

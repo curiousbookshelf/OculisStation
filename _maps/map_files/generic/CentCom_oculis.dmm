@@ -5688,10 +5688,6 @@
 /area/centcom/castor/control)
 "ccG" = (
 /obj/structure/dresser,
-/obj/item/toy/figure/dsquad{
-	pixel_x = -3;
-	pixel_y = 11
-	},
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
 	},
@@ -20054,7 +20050,6 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/official/enlist/directional/east,
 /turf/open/floor/iron/dark/textured_large,
 /area/centcom/central_command_areas/evacuation/ship)
 "pIl" = (
@@ -20854,7 +20849,6 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
 	},
-/obj/structure/sign/poster/official/enlist/directional/north,
 /turf/open/floor/iron/dark/brick_aligned,
 /area/centcom/castor/sectorial_security_administrator)
 "qrD" = (

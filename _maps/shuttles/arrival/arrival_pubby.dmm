@@ -123,7 +123,6 @@
 /area/shuttle/arrival)
 "Y" = (
 /obj/machinery/light/directional/north,
-/obj/structure/sign/poster/official/enlist/directional/north,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 

@@ -2303,13 +2303,6 @@
 /turf/open/indestructible/plating,
 /area/awaymission/museum)
 "sC" = (
-/obj/item/toy/figure/dsquad,
-/obj/item/toy/figure/dsquad{
-	pixel_x = -9
-	},
-/obj/item/toy/figure/dsquad{
-	pixel_x = 9
-	},
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/holofloor/beach/coast,
 /area/awaymission/museum)

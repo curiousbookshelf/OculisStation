@@ -7129,13 +7129,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /turf/open/floor/plating,
 /area/station/medical/medbay/central)
-"bSC" = (
-/obj/effect/turf_decal/tile/dark/opposingcorners{
-	dir = 8
-	},
-/obj/structure/sign/poster/official/enlist/directional/south,
-/turf/open/floor/iron/checker,
-/area/station/commons/lounge)
 "bSM" = (
 /obj/structure/closet/secure_closet/hos,
 /obj/machinery/status_display/evac/directional/east,
@@ -45365,7 +45358,6 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/obj/structure/sign/poster/official/enlist/directional/west,
 /turf/open/floor/eighties,
 /area/station/common/arcade)
 "mdd" = (
@@ -61725,7 +61717,6 @@
 	dir = 8
 	},
 /obj/machinery/restaurant_portal/bar,
-/obj/structure/sign/poster/official/enlist/directional/west,
 /turf/open/floor/iron/checker,
 /area/station/commons/lounge)
 "qCA" = (
@@ -62253,7 +62244,6 @@
 	dir = 10
 	},
 /obj/effect/spawner/random/vending/snackvend,
-/obj/structure/sign/poster/official/enlist/directional/south,
 /turf/open/floor/iron/corner{
 	dir = 4
 	},
@@ -257670,7 +257660,7 @@ iDt
 qWG
 qpv
 kfp
-bSC
+iDt
 tRY
 dzP
 iYl

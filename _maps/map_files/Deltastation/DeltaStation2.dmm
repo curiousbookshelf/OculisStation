@@ -46867,7 +46867,6 @@
 /obj/structure/table/wood,
 /obj/item/folder/red,
 /obj/item/book/manual/wiki/security_space_law,
-/obj/item/toy/figure/dsquad,
 /turf/open/floor/wood,
 /area/station/command/meeting_room/council)
 "lAh" = (
@@ -95335,7 +95334,6 @@
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /obj/item/pen,
-/obj/structure/sign/poster/official/enlist/directional/south,
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 8
 	},

@@ -68606,16 +68606,6 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/wood/large,
 /area/station/service/theater)
-"sXX" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/sign/poster/official/enlist/directional/south,
-/obj/effect/turf_decal/trimline/blue/filled/line,
-/turf/open/floor/iron/dark/smooth_edge{
-	dir = 1
-	},
-/area/station/hallway/secondary/command)
 "sYe" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -83710,7 +83700,6 @@
 	dir = 6
 	},
 /obj/structure/table/wood,
-/obj/item/toy/figure/dsquad,
 /turf/open/floor/wood/large,
 /area/station/commons/dorms)
 "xjQ" = (
@@ -117764,7 +117753,7 @@ mWM
 aEF
 mav
 xjX
-sXX
+hhw
 imR
 vwo
 fUU
