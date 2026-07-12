@@ -1,0 +1,5 @@
+author: "Shroopy"
+delete-after: True
+changes:
+  - bugfix: "Fixed some of the mirrors in the ghost cafe showing you upside-down and backwards."
+  - map: "Changed the ghost cafe mirrors to directional types."
