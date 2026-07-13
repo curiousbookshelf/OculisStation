@@ -1,0 +1,4 @@
+author: "Shroopy"
+delete-after: True
+changes:
+  - rscdel: "Removed all spawns of russian revolvers. Soul russian revolvers have been replaced with 4k credits. Russian revolvers no longer replace themselves on mapload."
