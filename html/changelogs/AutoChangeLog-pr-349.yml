@@ -1,0 +1,4 @@
+author: "Shroopy"
+delete-after: True
+changes:
+  - bugfix: "Fixed NebulaStation's Xenobio holding pen not being full of BZ at roundstart."
