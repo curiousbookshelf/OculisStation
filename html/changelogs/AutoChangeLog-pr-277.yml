@@ -1,5 +1,0 @@
-author: "Lokachop"
-delete-after: True
-changes:
-  - rscadd: "Added arachnids as a playable species"
-  - config: "added arachnids to the roundstart species"
