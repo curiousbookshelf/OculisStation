@@ -166,6 +166,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/cargodise_freighter/trauma)
+"cC" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "cE" = (
 /mob/living/basic/vox/ranged/space/laser,
 /turf/template_noop,
@@ -411,6 +417,16 @@
 /obj/item/ammo_box/magazine/lanca,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
+"fi" = (
+/obj/structure/closet/crate/goldcrate/stocked,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/item/stack/sheet/plasteel/twenty,
+/obj/item/stack/sheet/mineral/diamond,
+/obj/effect/spawner/random/entertainment/money_large,
+/obj/effect/spawner/random/entertainment/money_large,
+/obj/effect/spawner/random/entertainment/money_large,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "fl" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -522,6 +538,17 @@
 /mob/living/basic/vox/melee,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/cargodise_freighter/mining)
+"hp" = (
+/obj/structure/closet/crate/secure/gear{
+	name = "Delivery - Sectorial Command Frontier Division";
+	req_access = list("armory")
+	},
+/obj/effect/spawner/random/exotic/antag_gear_weak,
+/obj/effect/spawner/random/exotic/antag_gear_weak,
+/obj/effect/spawner/random/exotic/antag_gear_weak,
+/obj/effect/spawner/random/exotic/technology,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "hr" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
@@ -2219,17 +2246,6 @@
 /obj/machinery/door/firedoor/closed,
 /turf/open/floor/iron/dark/smooth_half,
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
-"Ii" = (
-/obj/structure/closet/crate/secure/gear{
-	name = "Delivery - Sectorial Command Frontier Division";
-	req_access = list("armory")
-	},
-/obj/effect/spawner/random/exotic/antag_gear_weak,
-/obj/effect/spawner/random/exotic/antag_gear_weak,
-/obj/effect/spawner/random/exotic/antag_gear_weak,
-/obj/effect/spawner/random/exotic/technology,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Im" = (
 /obj/effect/turf_decal/trimline/blue/corner,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -2296,12 +2312,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/cargodise_freighter/vault)
-"Jd" = (
-/obj/effect/turf_decal/tile/green/half/contrasted{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "Jm" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/structure/extinguisher_cabinet/directional/south,
@@ -2466,16 +2476,6 @@
 /obj/machinery/vending/hydroseeds,
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
-"Ln" = (
-/obj/structure/closet/crate/goldcrate,
-/obj/item/stack/sheet/mineral/plasma/five,
-/obj/item/stack/sheet/plasteel/twenty,
-/obj/item/stack/sheet/mineral/diamond,
-/obj/effect/spawner/random/entertainment/money_large,
-/obj/effect/spawner/random/entertainment/money_large,
-/obj/effect/spawner/random/entertainment/money_large,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/cargodise_freighter/vault)
 "Lp" = (
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 4
@@ -4253,7 +4253,7 @@ Gg
 Gg
 Gg
 Gg
-Jd
+cC
 wd
 iT
 Gg
@@ -4346,7 +4346,7 @@ lH
 dm
 xX
 LW
-Ii
+hp
 xX
 GW
 Wl
@@ -5071,7 +5071,7 @@ Gh
 Gh
 vh
 vh
-Ln
+fi
 MS
 Gn
 Sc

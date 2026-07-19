@@ -55,11 +55,6 @@
 	color = "#FF0000"
 	},
 /area/centcom/basketball)
-"eU" = (
-/obj/structure/showcase/machinery/tv/broken,
-/obj/structure/table/wood,
-/turf/open/floor/carpet/grimey,
-/area/centcom/basketball)
 "fi" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
@@ -116,6 +111,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral/half,
 /turf/open/floor/iron/white/smooth_half,
+/area/centcom/basketball)
+"jT" = (
+/turf/open/floor/carpet/grimey,
 /area/centcom/basketball)
 "kc" = (
 /turf/closed/indestructible/riveted/plastinum{
@@ -203,7 +201,9 @@
 "tO" = (
 /turf/open/floor/plating,
 /area/centcom/basketball)
-"tX" = (
+"uA" = (
+/obj/structure/table/wood,
+/obj/item/clothing/head/costume/foilhat,
 /turf/open/floor/carpet/grimey,
 /area/centcom/basketball)
 "vb" = (
@@ -236,6 +236,11 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
+/area/centcom/basketball)
+"wV" = (
+/obj/structure/showcase/machinery/tv/broken,
+/obj/structure/table/wood,
+/turf/open/floor/carpet/grimey,
 /area/centcom/basketball)
 "xP" = (
 /obj/structure/table,
@@ -320,10 +325,6 @@
 /obj/item/clothing/glasses/monocle,
 /turf/open/floor/carpet,
 /area/centcom/basketball)
-"CV" = (
-/obj/structure/chair/comfy/brown,
-/turf/open/floor/carpet/grimey,
-/area/centcom/basketball)
 "Dt" = (
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/centcom/basketball)
@@ -349,6 +350,10 @@
 /obj/structure/sign/poster/contraband/revolver,
 /turf/closed/indestructible/fakeglass,
 /area/centcom/basketball)
+"FE" = (
+/obj/structure/reagent_dispensers/keg/beer,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/centcom/basketball)
 "Gh" = (
 /obj/structure/rack,
 /obj/item/gun/ballistic/automatic/pistol/deagle/gold{
@@ -361,10 +366,6 @@
 	},
 /obj/item/gun/ballistic/automatic/pistol/deagle,
 /turf/open/floor/iron/dark,
-/area/centcom/basketball)
-"Gi" = (
-/obj/structure/reagent_dispensers/beerkeg,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/centcom/basketball)
 "Hu" = (
 /turf/closed/indestructible/riveted,
@@ -425,11 +426,6 @@
 "LV" = (
 /obj/structure/sign/poster/contraband/syndicate_pistol,
 /turf/closed/indestructible/fakeglass,
-/area/centcom/basketball)
-"Ma" = (
-/obj/structure/table/wood,
-/obj/item/clothing/head/costume/foilhat,
-/turf/open/floor/carpet/grimey,
 /area/centcom/basketball)
 "MW" = (
 /obj/effect/turf_decal/tile/dark_blue/full,
@@ -501,6 +497,10 @@
 "Rl" = (
 /obj/machinery/deepfryer,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/centcom/basketball)
+"Sk" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/carpet/grimey,
 /area/centcom/basketball)
 "Tc" = (
 /obj/structure/closet/secure_closet/freezer/meat,
@@ -712,9 +712,9 @@ gk
 Cw
 Ql
 Ql
-CV
-tX
-Ma
+Sk
+jT
+uA
 WM
 tO
 Hu
@@ -739,9 +739,9 @@ gk
 Cw
 Ql
 Ql
-CV
-tX
-eU
+Sk
+jT
+wV
 kc
 tO
 Hu
@@ -911,7 +911,7 @@ Hu
 (14,1,1) = {"
 Hu
 dS
-Gi
+FE
 Dt
 Dt
 Qh

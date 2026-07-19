@@ -181,6 +181,30 @@
 /obj/item/clothing/glasses/meson,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
+"qk" = (
+/obj/structure/closet/crate/wooden,
+/obj/item/toy/figure/wizard{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/toy/figure/clown{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/toy/figure/secofficer{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/toy/figure/secofficer{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/item/toy/figure/secofficer{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/toystore)
 "qX" = (
 /obj/item/food/badrecipe/moldy,
 /obj/structure/spider/stickyweb,
@@ -336,30 +360,6 @@
 	},
 /obj/item/cardpack/series_one,
 /obj/structure/closet/crate/cardboard,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/toystore)
-"wE" = (
-/obj/structure/closet/crate/wooden,
-/obj/item/toy/figure/wizard{
-	pixel_x = 8;
-	pixel_y = 6
-	},
-/obj/item/toy/figure/clown{
-	pixel_x = -2;
-	pixel_y = 6
-	},
-/obj/item/toy/figure/secofficer{
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/toy/figure/secofficer{
-	pixel_x = 8;
-	pixel_y = 2
-	},
-/obj/item/toy/figure/secofficer{
-	pixel_x = -4;
-	pixel_y = 2
-	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "wK" = (
@@ -703,6 +703,11 @@
 /mob/living/basic/spider/giant/hunter/scrawny,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
+"QA" = (
+/obj/effect/spawner/random/food_or_drink/keg,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/toystore)
 "QD" = (
 /obj/effect/spawner/random/structure/closet_empty/crate,
 /obj/effect/spawner/random/entertainment/plushie_delux,
@@ -743,11 +748,6 @@
 /obj/item/hand_labeler_refill,
 /obj/item/barcodescanner,
 /obj/item/pen,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/toystore)
-"Sb" = (
-/obj/structure/reagent_dispensers/beerkeg,
-/obj/structure/spider/stickyweb,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "Sj" = (
@@ -999,7 +999,7 @@ Xs
 wW
 JB
 sA
-wE
+qk
 Yr
 "}
 (7,1,1) = {"
@@ -1015,7 +1015,7 @@ ld
 ld
 IS
 ld
-Sb
+QA
 Rb
 IQ
 Yz
