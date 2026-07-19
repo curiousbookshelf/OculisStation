@@ -758,3 +758,75 @@ directory = "_maps/iris/automapper/templates/wawastation/"
 required_map = "wawastation.dmm"
 coordinates = [40, 112, 1]
 trait_name = "Station"
+
+# Oculis - Wawastation Arrivals
+[templates.wawastation_arrivals]
+map_files = ["wawastation_arrivals.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [79, 81, 2]
+trait_name = "Station"
+
+# Oculis - Wawastation NTR Office
+[templates.wawastation_ntrep_office]
+map_files = ["wawastation_ntrep_office.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [108, 122, 1]
+trait_name = "Station"
+
+# Oculis - Wawastation Supermatter
+[templates.wawastation_supermatter]
+map_files = ["wawastation_supermatter.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [162, 63, 1]
+trait_name = "Station"
+
+# Oculis - Wawastation Barber
+[templates.wawastation_barber]
+map_files = ["wawastation_barber.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [87, 102, 1]
+trait_name = "Station"
+
+# Oculis - Wawastation Armory
+[templates.wawastation_armory]
+map_files = ["wawastation_armory.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [64, 128, 2]
+trait_name = "Station"
+
+# Oculis - Wawastation Cryo
+[templates.wawastation_cryo]
+map_files = ["wawastation_cryo.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [83, 92, 1]
+trait_name = "Station"
+
+# Oculis - Wawastation TG-shenanigan removals.
+[templates.wawastation_asteroidbluecell]
+map_files = ["wawastation_asteroidbluecell.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [142, 95, 2]
+trait_name = "Station"
+
+# Oculis - Wawastation Public Garden
+[templates.wawastation_garden]
+map_files = ["wawastation_garden.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [79, 82, 1]
+trait_name = "Station"
+
+# Oculis - Wawastation Bar Backroom
+[templates.wawastation_bar_backroom]
+map_files = ["wawastation_bar_backroom.dmm"]
+directory = "_maps/iris/automapper/templates/wawastation/"
+required_map = "wawastation.dmm"
+coordinates = [93, 83, 1]
+trait_name = "Station"
