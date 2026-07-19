@@ -78,11 +78,11 @@
 
 /datum/species/teshari/on_species_gain(mob/living/carbon/human/new_teshari, datum/species/old_species, pref_load, regenerate_icons)
 	. = ..()
-	new_teshari.pass_flags |= PASSTABLE
+	ADD_TRAIT(new_teshari, TRAIT_PASSTABLE, SPECIES_TRAIT)
 
 /datum/species/teshari/on_species_loss(mob/living/carbon/C, datum/species/new_species, pref_load)
 	. = ..()
-	C.pass_flags &= ~PASSTABLE
+	REMOVE_TRAIT(C, TRAIT_PASSTABLE, SPECIES_TRAIT)
 
 /datum/species/teshari/get_species_lore()
 	return list(placeholder_lore)

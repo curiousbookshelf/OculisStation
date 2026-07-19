@@ -32,7 +32,7 @@
 	human_holder.mob_size = MOB_SIZE_TINY
 	human_holder.held_w_class = WEIGHT_CLASS_TINY
 	human_holder.worn_slot_flags = ITEM_SLOT_HEAD|ITEM_SLOT_BACK
-	human_holder.pass_flags |= PASSTABLE
+	ADD_TRAIT(human_holder, TRAIT_PASSTABLE, REF(src))
 
 	AddElement(/datum/element/can_be_held)
 
@@ -93,7 +93,7 @@
 	human_holder.mob_size = MOB_SIZE_HUMAN
 	human_holder.held_w_class = WEIGHT_CLASS_NORMAL
 	human_holder.worn_slot_flags = null
-	human_holder.pass_flags &= ~PASSTABLE
+	REMOVE_TRAIT(human_holder, TRAIT_PASSTABLE, REF(src))
 
 	RemoveElement(/datum/element/can_be_held)
 

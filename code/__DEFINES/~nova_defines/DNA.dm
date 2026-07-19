@@ -5,17 +5,6 @@
 /// Examine Panel OOC notes
 #define EXAMINE_DNA_OOC_NOTES "ooc_notes"
 
-/// Examine text when a person has low arousal
-#define ERP_FLAVOR_DNA_LOW_AROUSAL "erp_low_arousal_text"
-/// Examine text when a person has medium arousal
-#define ERP_FLAVOR_DNA_MEDIUM_AROUSAL "erp_medium_arousal_text"
-/// Examine text when a person has high arousal
-#define ERP_FLAVOR_DNA_HIGH_AROUSAL "erp_high_arousal_text"
-/// Flavor text when licking someone
-#define ERP_FLAVOR_DNA_TASTE "erp_taste"
-/// Flavor text when smelling someone
-#define ERP_FLAVOR_DNA_SCENT "erp_scent"
-
 //We start from 30 to not interfere with TG species defines, should they add more
 /// We're using all three mutcolor features for our skin coloration
 #define MUTCOLOR_MATRIXED	30
