@@ -448,3 +448,104 @@
   - rscadd: Hemophages can slurrrp bloodbags now.
   - rscadd: Limbgrower golem organs now. you dont have to. but you can. i guess. mhm.
       yep. spite PR? What spite PR. I'll have you know no such thing was made.
+2026-07-11:
+  Hatterhat:
+  - bugfix: Contractors' contracts no longer bug out if a target cryos. (The uplink
+      app will still require manual restarting, though.)
+  - qol: Drifting contractor's compact toolboxes now start with the jaws of death,
+      replacing the crowbar and wirecutters.
+  - balance: Drifting contractors' guncases now have two more magazines (one mag of
+      downers, one mag of regular lethals).
+  - balance: The contractor baton holster is now a contractor baton *recall module*.
+      Drifting contractors start with their baton pre-linked to the recall module.
+      Other contractors are advised that linking the baton is done by simply activating
+      the module with the baton in their active hand. As a bonus, it does mean that
+      you can throw guns at people really hard, like how practitioners of Sleeping
+      Carp can.
+  - balance: Drifting contractors' uplinks now roll for discounts like traitors' uplinks
+      do.
+  - balance: Citing a small, but statistically significant budget cut, drifting contractors
+      no longer receive a free energy combat shield.
+2026-07-13:
+  ManiacalAnxiety:
+  - balance: Re-adds sensitive hearing to Teshari.
+  Shroopy:
+  - bugfix: Fixed some of the mirrors in the ghost cafe showing you upside-down and
+      backwards.
+  - map: Changed the ghost cafe mirrors to directional types.
+2026-07-14:
+  ManiacalAnxiety:
+  - rscadd: Adds titles to HoS, HoP, Warden, Security Officer, and Prisoner.
+  Shroopy:
+  - bugfix: Fixed blood accumulating as a reagent in the bloodstream.
+  - code_imp: Undid the undocumented removal of the code that removes blood as a reagent
+      from the bloodstream.
+  - rscdel: Removed all spawns of russian revolvers. Soul russian revolvers have been
+      replaced with 4k credits. Russian revolvers no longer replace themselves on
+      mapload.
+  - bugfix: Fixed NebulaStation's Xenobio holding pen not being full of BZ at roundstart.
+2026-07-15:
+  Lokachop:
+  - rscadd: Added arachnids as a playable species
+  - config: added arachnids to the roundstart species
+2026-07-19:
+  keygenpie:
+  - rscadd: Detective no longer starts with lit cigarette in mouth, and no longer
+      receives cigarettes in mail.
+  - rscadd: Chef no longer starts with italian-speak mustache.
+  - rscadd: New alt job titles.
+  - code_imp: Improved the modularization comments in alt_job_titles.dm and moved
+      the explorer alt titles to the modular explorer.dm file.
+2026-07-20:
+  Salted-Zen:
+  - rscadd: 1 New PKA (Shockwave, a mostly mining focused PKA)
+  - rscadd: 9 Brand New "Wasteland Guns" (Limited Ammo Guns for use on lavaland)
+  - rscadd: 2 New Crusher choices to pick from the crusher kit
+  - rscadd: 3 New backpacks for shaft miners to purchase
+  - rscadd: 1 New belt for shaft miners (holds Wasteland Guns ONLY)
+  - rscadd: GAMBLING for shaft miners, in the form of Surplus Necropolis Crates for
+      purchase
+  - rscadd: 1 New melee for shaft miners to meme with
+  - rscadd: 1 New admin melee weapon. A really really long pile bunker.
+  - balance: Removed Power Miner shard from necropolis chests, replaced it with wolf
+      cloak.
+  - balance: All crushers now only require one mark to be detonated for reward eligibility
+  - balance: Machete and Claws can no longer be two handed, but always have their
+      two handed damage
+  Shroopy:
+  - map: Renamed justice chambers and associated items to Sentence Resolution Rooms.
+  - bugfix: Fixed synth centipede taur legs not actually being fully synthetic.
+  - bugfix: Fixed modsuits not actually checking if you can keep your suit storage
+      item instead of dropping it.
+  - rscadd: You can now give CPR if you or your target has a mask on.
+  - qol: Added a notice for when you're giving CPR without mouth-to-mouth for any
+      reason.
+  - bugfix: CPR no longer requires you or your target to have exposed mouths, despite
+      not requiring breathing.
+  - rscadd: Added Insect blood to standard blood crates.
+  - rscadd: Added cargo single-pack orders for GAS, Vox, Skrell, Snail, and Arachnid
+      blood.
+  - rscdel: Removed Arachnid blood from uncommon blood type crates.
+  - rscadd: Added a label to CU blood packs saying that they're for Arachnids.
+  - code_imp: Improved the Oculis modularization comments in unusual_biochemistry/reagents.dm.
+  - balance: Re-allowed ordering all medical supplies through the express cargo console,
+      except for combat cybernetics and combat stimulants.
+  Skies-Of-Blue:
+  - rscdel: Removes Fake Virus from the event pool.
+  - rscadd: adds amollin pills to loadout
+  - code_imp: iris_loadout_datum_pocket.dm has been killed, its replacement now lives
+      in modular_oculis/.../loadout_datum_pocket.dm
+  Skies-Of-Blue, PiperDoots:
+  - rscadd: over fifty new stickers! You can find them through loadout, or in the
+      Good Clean Fun library vendor
+  - rscadd: three new sticker packs including some of the above, found in the same
+      places
+  - balance: 4x sticker quantity in the GCF vendor
+  epicgamer545:
+  - map: Nanotrasen Safety Associates deemed Wawastation's Research Department too
+      dark -- as a result, they have added more lights and inadvertently revamped
+      Robotic's surgery room as a result, adding necessary touches to equipment.
+2026-07-21:
+  Salted-Zen:
+  - balance: Legions can no longer heal bosses, instead, skulls that attempt to do
+      this will just die.

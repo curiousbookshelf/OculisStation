@@ -207,6 +207,10 @@
 	var/pressure_decrease_active = FALSE
 	var/pressure_decrease = 0.25
 	var/obj/item/gun/energy/recharge/kinetic_accelerator/kinetic_gun
+	var/skillbasedweapon = TRUE /*OCULIS EDIT - DOES NOT EXIST BY DEFAULT
+	THIS IS USED TO DETERMINE IF A WEAPON FIRING THIS PROJECTILE SHOULD GET COOLDOWN WHEN MINING ORE
+	THE REASON IT HAS TO EXIST IS BECAUSE SOME WASTELAND GUNS USE KINETIC PROJECTILES
+	BUT DO NOT HAVE COOLDOWNS*/
 
 /obj/projectile/kinetic/Initialize(mapload)
 	. = ..()
@@ -268,7 +272,8 @@
 			// If there is a mind, check for skill modifier to allow them to reload faster.
 			if(carbon_firer.mind)
 				skill_modifier = carbon_firer.mind.get_skill_modifier(/datum/skill/mining, SKILL_SPEED_MODIFIER)
-			kinetic_gun.attempt_reload(kinetic_gun.recharge_time * skill_modifier) //If you hit a mineral, you might get a quicker reload. epic gamer style.
+			if(skillbasedweapon) //OCULUS EDIT THAT ALLOWS TOGGLING OF THE BELOW FEATURE THROUGH SKILLBASEDWEAPON VAR
+				kinetic_gun.attempt_reload(kinetic_gun.recharge_time * skill_modifier) //If you hit a mineral, you might get a quicker reload. epic gamer style.
 	var/obj/effect/temp_visual/kinetic_blast/K = new /obj/effect/temp_visual/kinetic_blast(target_turf)
 	K.color = color
 

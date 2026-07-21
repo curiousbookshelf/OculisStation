@@ -170,6 +170,30 @@
 		/obj/item/wrench,
 		/obj/item/wormhole_jaunter,
 		/obj/item/skeleton_key,
+		/obj/item/storage/box/kinetic, //OCULIS CHANGE START - ADDS THE WASTELAND GUN AMMOS TO THE EXPLORER WEBBING
+		/obj/item/ammo_box/magazine/pksmgmag,
+		/obj/item/storage/box/kinetic/shotgun,
+		/obj/item/storage/box/kinetic/shotgun/sniperslug,
+		/obj/item/storage/box/kinetic/shotgun/rockbreaker,
+		/obj/item/ammo_box/magazine/ammo_stack/kineticmagnum,
+		/obj/item/ammo_casing/shotgun/kinetic,
+		/obj/item/ammo_casing/shotgun/kinetic/sniperslug,
+		/obj/item/ammo_casing/shotgun/kinetic/rockbreaker,
+		/obj/item/gun/ballistic/revolver/govmining, //:trollface: explorer webbing full of revolvers? What are you, revolver ocelot?
+		/obj/item/ammo_casing/govmining,
+		/obj/item/ammo_box/govmining,
+		/obj/item/storage/box/kinetic/govmining,
+		/obj/item/storage/box/kinetic/govmining/smallcase,
+		/obj/item/ammo_casing/shotgun/hydrakinetic,
+		/obj/item/storage/box/kinetic/autoshotgun,
+		/obj/item/ammo_box/magazine/autoshotgun,
+		/obj/item/ammo_casing/a762kinetic,
+		/obj/item/ammo_box/a762kinetic,
+		/obj/item/storage/box/kinetic/kineticlmg,
+		/obj/item/ammo_casing/minerjdj,
+		/obj/item/ammo_box/magazine/ammo_stack/govmining,
+		/obj/item/ammo_box/magazine/ammo_stack/kineticmagnum,
+		/obj/item/ammo_box/magazine/ammo_stack/autoshotgun, //OCULIS CHANGE END
 	))
 
 ///Primitive mining belt

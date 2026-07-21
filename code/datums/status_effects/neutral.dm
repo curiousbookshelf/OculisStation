@@ -7,7 +7,7 @@
 	status_type = STATUS_EFFECT_UNIQUE
 	alert_type = null
 	/// How much damage?
-	var/total_damage = 0
+	var/total_damage = 100000 //OCULIS EDIT - SALTMINING - MAKES IT SO A SINGLE CRUSHER TAP GURANTEES CRUSHER LOOT, BECAUSE WHY THE HELL NOT. HELPS ENCOURAGE CO-OP WITH NON CRUSHER SHAFT MINER COMPANIONS AS CRUSHER USERS WONT BE SCREWED OUT OF THEIR TROPHY
 
 /datum/status_effect/crusher_damage/on_apply()
 	RegisterSignal(owner, COMSIG_MOB_AFTER_APPLY_DAMAGE, PROC_REF(damage_taken))
