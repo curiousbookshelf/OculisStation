@@ -34,7 +34,7 @@
 	human_holder.worn_slot_flags = ITEM_SLOT_HEAD|ITEM_SLOT_BACK
 	ADD_TRAIT(human_holder, TRAIT_PASSTABLE, REF(src))
 
-	AddElement(/datum/element/can_be_held)
+	human_holder.AddElement(/datum/element/can_be_held)
 
 	human_holder.max_grab = GRAB_AGGRESSIVE //you are too weak to neck slam or strangle
 	human_holder.physiology.hunger_mod *= UNDERSIZED_HUNGER_MOD
@@ -95,7 +95,7 @@
 	human_holder.worn_slot_flags = null
 	REMOVE_TRAIT(human_holder, TRAIT_PASSTABLE, REF(src))
 
-	RemoveElement(/datum/element/can_be_held)
+	human_holder.RemoveElement(/datum/element/can_be_held)
 
 	human_holder.max_grab = GRAB_KILL
 	human_holder.physiology.hunger_mod /= UNDERSIZED_HUNGER_MOD
