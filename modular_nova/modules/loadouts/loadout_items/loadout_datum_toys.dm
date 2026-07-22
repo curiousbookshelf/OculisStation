@@ -106,11 +106,11 @@
 /datum/loadout_item/toys/ventriloquist
 	name = "Ventriloquist Dummy"
 	item_path = /obj/item/toy/dummy
-
+/* // OCULIS EDIT REMOVAL START
 /datum/loadout_item/toys/petclicker
 	name = "Training Clicker"
 	item_path = /obj/item/petclicker
-
+*/ // OCULIS EDIT REMOVAL END
 /*
 *	TENNIS BALLS
 */

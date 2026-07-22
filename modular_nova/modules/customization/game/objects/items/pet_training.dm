@@ -1,3 +1,4 @@
+/* //OCULIS EDIT REMOVAL START
 /obj/item/petclicker
 	name = "training clicker"
 	desc = "A handheld clicker for reinforcing good behavior in trained animals. Activate it in-hand to click it. Alt-click to toggle how far the click carries."
@@ -22,3 +23,4 @@
 /obj/item/petclicker/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/item_scaling, 0.7, 1)
+/* //OCULIS EDIT REMOVAL END
