@@ -14600,11 +14600,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/centcom/castor/engineering/security_post)
-"kKW" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/porta_turret/black_mesa/heavy,
-/turf/open/floor/engine,
-/area/centcom/central_command_areas/hallway)
 "kLD" = (
 /obj/machinery/light/directional/south,
 /turf/open/indestructible/hotelwood,
@@ -15816,6 +15811,14 @@
 	},
 /turf/open/floor/iron/white,
 /area/centcom/holding/cafe)
+"lNl" = (
+/obj/structure/table/wood,
+/obj/structure/sign/picture_frame/portrait/bar{
+	pixel_y = 28
+	},
+/obj/effect/spawner/random/food_or_drink/keg,
+/turf/open/floor/iron/dark/small,
+/area/centcom/interlink)
 "lOx" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
@@ -17293,14 +17296,6 @@
 /obj/machinery/light/floor,
 /turf/open/floor/iron/dark/herringbone,
 /area/centcom/central_command_areas/evacuation/ship)
-"ngp" = (
-/obj/structure/table/wood,
-/obj/structure/sign/picture_frame/portrait/bar{
-	pixel_y = 28
-	},
-/obj/effect/spawner/random/food_or_drink/keg,
-/turf/open/floor/iron/dark/small,
-/area/centcom/interlink)
 "ngD" = (
 /obj/machinery/door/airlock/vault{
 	name = "Vault Door"
@@ -18779,6 +18774,17 @@
 /obj/structure/fans/tiny/invisible,
 /turf/open/misc/grass/planet,
 /area/centcom/holding/cafepark)
+"oAQ" = (
+/obj/structure/closet/crate/goldcrate/stocked,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/item/stack/spacecash/c500,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/turf_decal/bot,
+/obj/machinery/light/blacklight/directional/north,
+/turf/open/floor/engine,
+/area/centcom/central_command_areas/hallway)
 "oBa" = (
 /obj/structure/stone_tile/center,
 /obj/structure/stone_tile/surrounding_tile/cracked,
@@ -19407,6 +19413,10 @@
 	},
 /turf/open/floor/carpet/cyan,
 /area/centcom/holding/cafe)
+"pen" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/engine,
+/area/centcom/central_command_areas/hallway)
 "peW" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -24166,6 +24176,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/centcom/central_command_areas/evacuation/ship)
+"txQ" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/engine,
+/area/centcom/castor/sectorial_security_administrator)
 "txY" = (
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/camera/directional/east,
@@ -25132,11 +25146,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supplypod)
-"uvq" = (
-/obj/machinery/porta_turret/black_mesa/heavy,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/engine,
-/area/centcom/central_command_areas/hallway)
 "uwa" = (
 /turf/closed/indestructible/steel,
 /area/centcom/castor/hallway_four)
@@ -26088,11 +26097,6 @@
 	},
 /turf/open/floor/bamboo,
 /area/centcom/holding/cafe)
-"vkL" = (
-/obj/machinery/light/directional/south,
-/obj/machinery/porta_turret/black_mesa/heavy,
-/turf/open/floor/engine,
-/area/centcom/castor/sectorial_security_administrator)
 "vlf" = (
 /obj/machinery/incident_display/delam/directional/north,
 /obj/structure/cable,
@@ -28755,17 +28759,6 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/bamboo,
 /area/centcom/holding/cafe)
-"xIq" = (
-/obj/structure/closet/crate/goldcrate/stocked,
-/obj/item/stack/spacecash/c500,
-/obj/item/stack/spacecash/c500,
-/obj/item/stack/spacecash/c500,
-/obj/item/stack/spacecash/c500,
-/obj/machinery/airalarm/directional/north,
-/obj/effect/turf_decal/bot,
-/obj/machinery/light/blacklight/directional/north,
-/turf/open/floor/engine,
-/area/centcom/central_command_areas/hallway)
 "xIx" = (
 /obj/structure/chair/office,
 /turf/open/indestructible/hotelwood,
@@ -39704,9 +39697,9 @@ iyV
 fRP
 pff
 uFc
-uvq
+pen
 vHK
-uvq
+pen
 uFc
 uFc
 aaa
@@ -39764,7 +39757,7 @@ eUA
 chj
 rvF
 qaU
-ngp
+lNl
 tys
 lLJ
 jXJ
@@ -40217,7 +40210,7 @@ sEC
 iyV
 fRP
 pff
-xIq
+oAQ
 krE
 fCH
 krE
@@ -40474,11 +40467,11 @@ sEC
 iyV
 fRP
 pff
-kKW
+pen
 rzg
 krE
 pVO
-kKW
+pen
 uFc
 aaa
 aaa
@@ -42787,7 +42780,7 @@ ijk
 jwg
 juZ
 juZ
-vkL
+txQ
 jUz
 jri
 jri

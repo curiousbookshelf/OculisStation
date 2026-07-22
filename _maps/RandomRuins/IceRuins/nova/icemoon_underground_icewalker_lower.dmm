@@ -318,10 +318,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
-"hV" = (
-/obj/structure/flora/ash/stem_shroom,
-/turf/open/misc/dirt/icemoon,
-/area/ruin/unpowered/primitive_catgirl_den)
 "iI" = (
 /obj/effect/turf_decal/siding/wood/end,
 /obj/structure/mineral_door/wood/large_gate,
@@ -372,6 +368,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone/icemoon,
+/area/ruin/unpowered/primitive_catgirl_den)
+"jt" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/obj/structure/flora/ash/stem_shroom,
+/turf/open/misc/dirt/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
 "jw" = (
 /obj/structure/rack/wooden,
@@ -634,16 +637,6 @@
 /area/ruin/unpowered/primitive_catgirl_den)
 "nn" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/table/wood,
-/turf/open/floor/stone/icemoon,
-/area/ruin/unpowered/primitive_catgirl_den)
-"nt" = (
-/obj/machinery/smartfridge/drying/rack/smoker,
-/turf/open/misc/asteroid/snow/icemoon,
-/area/ruin/unpowered/primitive_catgirl_den)
-"nP" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/wall_torch/spawns_lit/directional/north,
 /obj/structure/table/wood,
 /turf/open/floor/stone/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
@@ -925,14 +918,6 @@
 /area/ruin/unpowered/primitive_catgirl_den)
 "tW" = (
 /obj/item/flashlight/lantern/on,
-/turf/open/misc/dirt/icemoon,
-/area/ruin/unpowered/primitive_catgirl_den)
-"ub" = (
-/obj/effect/turf_decal/weather/snow/corner,
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 1
-	},
-/obj/structure/flora/ash/stem_shroom,
 /turf/open/misc/dirt/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
 "ut" = (
@@ -1398,6 +1383,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
+"Er" = (
+/obj/effect/turf_decal/weather/snow/corner,
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/obj/structure/flora/ash/stem_shroom,
+/turf/open/misc/dirt/icemoon,
+/area/ruin/unpowered/primitive_catgirl_den)
 "Ex" = (
 /obj/structure/flora/bush/snow/style_random,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -1668,6 +1661,10 @@
 	},
 /turf/open/floor/stone/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
+"JG" = (
+/obj/structure/flora/ash/stem_shroom,
+/turf/open/misc/dirt/icemoon,
+/area/ruin/unpowered/primitive_catgirl_den)
 "JN" = (
 /obj/structure/flora/rock/icy/style_random,
 /turf/open/misc/asteroid/snow/icemoon,
@@ -1693,6 +1690,10 @@
 	dir = 9
 	},
 /turf/open/misc/dirt/icemoon,
+/area/ruin/unpowered/primitive_catgirl_den)
+"Kp" = (
+/obj/machinery/smartfridge/drying/rack/smoker,
+/turf/open/misc/asteroid/snow/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
 "Kr" = (
 /obj/effect/turf_decal/siding/wood/corner,
@@ -1947,6 +1948,12 @@
 	},
 /turf/open/floor/wood/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
+"Qu" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/wall_torch/spawns_lit/directional/north,
+/obj/structure/table/wood,
+/turf/open/floor/stone/icemoon,
+/area/ruin/unpowered/primitive_catgirl_den)
 "Rp" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -2198,13 +2205,6 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 5
 	},
-/turf/open/misc/dirt/icemoon,
-/area/ruin/unpowered/primitive_catgirl_den)
-"Xn" = (
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 5
-	},
-/obj/structure/flora/ash/stem_shroom,
 /turf/open/misc/dirt/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
 "Xv" = (
@@ -2521,7 +2521,7 @@ yE
 bH
 rT
 rA
-nt
+Kp
 je
 RB
 yp
@@ -2647,7 +2647,7 @@ Nt
 bH
 gU
 wF
-ub
+Er
 wF
 aK
 wF
@@ -3290,7 +3290,7 @@ yp
 xW
 tI
 yp
-nP
+Qu
 lF
 yE
 MX
@@ -3652,7 +3652,7 @@ wF
 wF
 Yk
 ut
-Xn
+jt
 oK
 eS
 JQ
@@ -3756,7 +3756,7 @@ tI
 bX
 RW
 JQ
-hV
+JG
 oK
 oK
 GU

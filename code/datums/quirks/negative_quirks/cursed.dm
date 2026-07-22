@@ -21,7 +21,9 @@
 
 
 /datum/quirk/cursed/proc/on_death(datum/component/omen/omen)
+	return // OCULIS EDIT ADDITION
 /* // OCULIS EDIT REMOVAL START
+
 	var/mob/living/carbon/cursed = omen.parent
 	if(!iscarbon(cursed))
 		cursed.gib(DROP_ALL_REMAINS)
@@ -35,4 +37,3 @@
 	cursed.spread_bodyparts()
 	cursed.spawn_gibs()
 */ // OCULIS EDIT REMOVAL END
-	return // OCULIS EDIT ADDITION

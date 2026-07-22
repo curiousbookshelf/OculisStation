@@ -10,28 +10,6 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/allamericandiner)
-"aC" = (
-/obj/structure/table/wood,
-/obj/item/clipboard{
-	pixel_x = -6;
-	pixel_y = 4
-	},
-/obj/item/stamp/granted{
-	pixel_x = 7;
-	pixel_y = 9
-	},
-/obj/item/stamp/denied{
-	pixel_x = 7;
-	pixel_y = 4
-	},
-/turf/open/floor/carpet/grimey,
-/area/ruin/space/has_grav/allamericandiner)
-"bz" = (
-/obj/machinery/photocopier/gratis,
-/obj/structure/sign/flag/ssc/directional/north,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/grimey,
-/area/ruin/space/has_grav/allamericandiner)
 "bA" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable,
@@ -53,6 +31,24 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
+/area/ruin/space/has_grav/allamericandiner)
+"cy" = (
+/obj/effect/spawner/random/food_or_drink/keg,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/freezer,
+/area/ruin/space/has_grav/allamericandiner)
+"cA" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/pen{
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "cQ" = (
 /obj/effect/turf_decal/bot,
@@ -99,10 +95,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/space/has_grav/allamericandiner)
-"eC" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/carpet/grimey,
-/area/ruin/space/has_grav/allamericandiner)
 "eM" = (
 /obj/machinery/door/airlock{
 	name = "Bathrooms"
@@ -115,30 +107,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
-/area/ruin/space/has_grav/allamericandiner)
-"eO" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/cigarettes/cigars/havana{
-	pixel_x = 2;
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/cup/glass/bottle/whiskey{
-	pixel_x = -7;
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_x = -9;
-	pixel_y = -4
-	},
-/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
-	pixel_y = -4
-	},
-/obj/item/lighter{
-	pixel_y = -3;
-	pixel_x = 9
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "eR" = (
 /obj/effect/turf_decal/bot,
@@ -223,21 +191,6 @@
 /obj/structure/marker_beacon/burgundy,
 /turf/open/misc/asteroid/airless,
 /area/ruin/space)
-"hr" = (
-/obj/structure/table/wood,
-/obj/item/folder{
-	pixel_x = -4
-	},
-/obj/item/pen{
-	pixel_x = -6;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/cup/glass/mug{
-	pixel_x = 9;
-	pixel_y = 1
-	},
-/turf/open/floor/carpet/grimey,
-/area/ruin/space/has_grav/allamericandiner)
 "hU" = (
 /obj/structure/chair/sofa/right/maroon{
 	dir = 4
@@ -381,10 +334,29 @@
 /obj/structure/urinal/directional/north,
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/allamericandiner)
-"pt" = (
-/obj/effect/spawner/random/food_or_drink/keg,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/freezer,
+"pj" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/cigars/havana{
+	pixel_x = 2;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/cup/glass/bottle/whiskey{
+	pixel_x = -7;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
+	pixel_x = -9;
+	pixel_y = -4
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
+	pixel_y = -4
+	},
+/obj/item/lighter{
+	pixel_y = -3;
+	pixel_x = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "qB" = (
 /obj/structure/closet/crate/trashcart/filled,
@@ -503,16 +475,16 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/allamericandiner)
+"vC" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/grimey,
+/area/ruin/space/has_grav/allamericandiner)
 "vE" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/box/cups,
 /turf/open/floor/iron/kitchen/small,
-/area/ruin/space/has_grav/allamericandiner)
-"wy" = (
-/obj/structure/chair/comfy/brown,
-/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "wC" = (
 /obj/structure/closet{
@@ -571,6 +543,10 @@
 	},
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/allamericandiner)
+"yR" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/carpet/grimey,
+/area/ruin/space/has_grav/allamericandiner)
 "yY" = (
 /obj/effect/turf_decal/siding/brown/corner{
 	dir = 8
@@ -617,10 +593,6 @@
 	},
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
 /turf/open/floor/iron/kitchen,
-/area/ruin/space/has_grav/allamericandiner)
-"AZ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "Bg" = (
 /obj/machinery/light/dim/directional/west,
@@ -708,6 +680,10 @@
 	},
 /obj/structure/window/reinforced/tinted/spawner/directional/east,
 /turf/open/floor/iron/kitchen,
+/area/ruin/space/has_grav/allamericandiner)
+"Fb" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "Fr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -842,19 +818,6 @@
 /obj/item/pen,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/allamericandiner)
-"Jv" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/pen{
-	pixel_x = -3;
-	pixel_y = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/grimey,
-/area/ruin/space/has_grav/allamericandiner)
 "Jw" = (
 /obj/machinery/griddle,
 /turf/open/floor/iron/kitchen/small,
@@ -928,6 +891,12 @@
 "LR" = (
 /obj/structure/sink/kitchen/directional/west,
 /turf/open/floor/iron/kitchen/small,
+/area/ruin/space/has_grav/allamericandiner)
+"Ma" = (
+/obj/machinery/photocopier/gratis,
+/obj/structure/sign/flag/ssc/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "Mq" = (
 /obj/effect/turf_decal/stripes/line{
@@ -1125,10 +1094,6 @@
 /obj/machinery/power/smes,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/allamericandiner)
-"Up" = (
-/obj/machinery/light/directional/west,
-/turf/open/floor/carpet/grimey,
-/area/ruin/space/has_grav/allamericandiner)
 "Uv" = (
 /obj/structure/toilet{
 	dir = 8
@@ -1158,6 +1123,22 @@
 /obj/structure/sink/directional/south,
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/allamericandiner)
+"Vn" = (
+/obj/structure/table/wood,
+/obj/item/clipboard{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/stamp/granted{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/obj/item/stamp/denied{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/grimey,
+/area/ruin/space/has_grav/allamericandiner)
 "Vq" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light/dim/directional/east,
@@ -1173,6 +1154,21 @@
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
+/area/ruin/space/has_grav/allamericandiner)
+"Wf" = (
+/obj/structure/table/wood,
+/obj/item/folder{
+	pixel_x = -4
+	},
+/obj/item/pen{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/cup/glass/mug{
+	pixel_x = 9;
+	pixel_y = 1
+	},
+/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "WC" = (
 /obj/machinery/gibber{
@@ -1233,6 +1229,10 @@
 "Yr" = (
 /obj/effect/spawner/structure/electrified_grille,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/allamericandiner)
+"Ys" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/carpet/grimey,
 /area/ruin/space/has_grav/allamericandiner)
 "YK" = (
 /obj/structure/table/reinforced,
@@ -1882,7 +1882,7 @@ oN
 EK
 uP
 Al
-pt
+cy
 ZS
 EK
 Xj
@@ -2027,9 +2027,9 @@ oN
 oN
 oN
 EK
-eC
-Up
-aC
+yR
+Fb
+Vn
 Go
 EK
 ue
@@ -2064,9 +2064,9 @@ oN
 oN
 oN
 EK
-eC
-wy
-hr
+yR
+Ys
+Wf
 dB
 EK
 Sl
@@ -2101,9 +2101,9 @@ oN
 oN
 oN
 EK
-bz
-AZ
-eO
+Ma
+vC
+pj
 Go
 EK
 Xs
@@ -2138,9 +2138,9 @@ SU
 oN
 oN
 EK
-Jv
-AZ
-AZ
+cA
+vC
+vC
 Go
 yB
 ck

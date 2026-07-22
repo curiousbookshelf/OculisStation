@@ -112,9 +112,6 @@
 /obj/effect/turf_decal/tile/neutral/half,
 /turf/open/floor/iron/white/smooth_half,
 /area/centcom/basketball)
-"jT" = (
-/turf/open/floor/carpet/grimey,
-/area/centcom/basketball)
 "kc" = (
 /turf/closed/indestructible/riveted/plastinum{
 	color = "#0000FF"
@@ -201,11 +198,6 @@
 "tO" = (
 /turf/open/floor/plating,
 /area/centcom/basketball)
-"uA" = (
-/obj/structure/table/wood,
-/obj/item/clothing/head/costume/foilhat,
-/turf/open/floor/carpet/grimey,
-/area/centcom/basketball)
 "vb" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -237,9 +229,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/centcom/basketball)
-"wV" = (
-/obj/structure/showcase/machinery/tv/broken,
+"wd" = (
+/obj/structure/reagent_dispensers/keg/beer,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/centcom/basketball)
+"wu" = (
 /obj/structure/table/wood,
+/obj/item/clothing/head/costume/foilhat,
 /turf/open/floor/carpet/grimey,
 /area/centcom/basketball)
 "xP" = (
@@ -350,10 +346,6 @@
 /obj/structure/sign/poster/contraband/revolver,
 /turf/closed/indestructible/fakeglass,
 /area/centcom/basketball)
-"FE" = (
-/obj/structure/reagent_dispensers/keg/beer,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/centcom/basketball)
 "Gh" = (
 /obj/structure/rack,
 /obj/item/gun/ballistic/automatic/pistol/deagle/gold{
@@ -434,6 +426,9 @@
 	},
 /turf/open/floor/iron/large,
 /area/centcom/basketball)
+"MY" = (
+/turf/open/floor/carpet/grimey,
+/area/centcom/basketball)
 "Oj" = (
 /obj/structure/chair/sofa/left/maroon{
 	dir = 1
@@ -494,11 +489,16 @@
 "Ql" = (
 /turf/open/floor/iron,
 /area/centcom/basketball)
+"QN" = (
+/obj/structure/showcase/machinery/tv/broken,
+/obj/structure/table/wood,
+/turf/open/floor/carpet/grimey,
+/area/centcom/basketball)
 "Rl" = (
 /obj/machinery/deepfryer,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
 /area/centcom/basketball)
-"Sk" = (
+"RL" = (
 /obj/structure/chair/comfy/brown,
 /turf/open/floor/carpet/grimey,
 /area/centcom/basketball)
@@ -712,9 +712,9 @@ gk
 Cw
 Ql
 Ql
-Sk
-jT
-uA
+RL
+MY
+wu
 WM
 tO
 Hu
@@ -739,9 +739,9 @@ gk
 Cw
 Ql
 Ql
-Sk
-jT
-wV
+RL
+MY
+QN
 kc
 tO
 Hu
@@ -911,7 +911,7 @@ Hu
 (14,1,1) = {"
 Hu
 dS
-FE
+wd
 Dt
 Dt
 Qh

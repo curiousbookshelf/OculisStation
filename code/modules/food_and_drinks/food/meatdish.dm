@@ -611,7 +611,7 @@
 	tastes = list("meat" = 1)
 	foodtypes = MEAT | RAW
 	foodtypes_added_when_cooked = BREAKFAST
-	eatverbs = list("bite", "chew", "nibble", "gobble", "chomp") // OCULIS EDIT, ORIGINAL: eatverbs = list("bite", "chew", "nibble", "deep throat", "gobble", "chomp")
+	eatverbs = list("bite", "chew", "nibble", "gobble", "chomp") // OCULIS EDIT
 	w_class = WEIGHT_CLASS_SMALL
 	crafting_complexity = FOOD_COMPLEXITY_1
 	custom_materials = list(/datum/material/meat = MEATSLAB_MATERIAL_AMOUNT)
@@ -631,9 +631,7 @@
 	tastes = list("meat" = 1)
 	foodtypes = MEAT | BREAKFAST
 	food_flags = FOOD_FINGER_FOOD
-	//IRIS EDIT CHANGE BEGIN - SUSSY_CONTENT_REMOVAL
-	eatverbs = list("bite", "chew", "nibble", "gobble", "chomp")
-	//IRIS EDIT CHANGE END
+	eatverbs = list("bite", "chew", "nibble", "gobble", "chomp") // OCULIS EDIT
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_CHEAP
 	crafting_complexity = FOOD_COMPLEXITY_2

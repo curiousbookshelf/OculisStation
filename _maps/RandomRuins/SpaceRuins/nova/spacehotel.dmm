@@ -1019,6 +1019,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel/bar)
+"gc" = (
+/obj/structure/closet,
+/obj/item/storage/medkit/regular,
+/obj/item/wrench,
+/turf/open/floor/carpet/neon/simple/teal/nodots,
+/area/ruin/space/has_grav/hotel/guestroom/room_3)
 "gd" = (
 /obj/structure/chair/sofa/corp/corner,
 /turf/open/floor/carpet/black,
@@ -3642,10 +3648,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/green,
 /area/ruin/space/has_grav/hotel/guestroom/room_4)
-"sn" = (
-/obj/effect/spawner/random/food_or_drink/keg,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/hotel/bar)
 "so" = (
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/hotel)
@@ -3996,6 +3998,10 @@
 	},
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/hotel/guestroom/room_4)
+"vb" = (
+/obj/effect/spawner/random/food_or_drink/keg,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/hotel/bar)
 "ve" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/carpet/royalblack,
@@ -4621,34 +4627,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/hotel)
-"zz" = (
-/obj/structure/closet/crate/freezer,
-/obj/item/food/grown/wheat,
-/obj/item/food/grown/wheat,
-/obj/item/food/grown/wheat,
-/obj/item/food/grown/wheat,
-/obj/item/food/grown/wheat,
-/obj/item/food/grown/wheat,
-/obj/item/food/grown/wheat,
-/obj/item/food/grown/potato,
-/obj/item/food/grown/potato,
-/obj/item/food/grown/potato,
-/obj/item/food/grown/potato,
-/obj/item/food/grown/potato,
-/obj/item/food/grown/carrotlike/carrot,
-/obj/item/food/grown/carrotlike/carrot,
-/obj/item/food/grown/carrotlike/carrot,
-/obj/item/food/grown/carrotlike/carrot,
-/obj/item/food/grown/carrotlike/carrot,
-/obj/item/food/grown/carrotlike/carrot,
-/obj/item/food/grown/tomato,
-/obj/item/food/grown/tomato,
-/obj/item/food/grown/tomato,
-/obj/item/food/grown/tomato,
-/obj/item/food/grown/tomato,
-/obj/machinery/light_switch/directional/south,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/ruin/space/has_grav/hotel/bar)
 "zE" = (
 /obj/structure/closet/crate,
 /obj/effect/turf_decal/bot,
@@ -5106,12 +5084,6 @@
 	},
 /turf/open/floor/carpet/neon/simple/white/nodots,
 /area/ruin/space/has_grav/hotel/guestroom)
-"Cx" = (
-/obj/structure/closet,
-/obj/item/storage/medkit/regular,
-/obj/item/wrench,
-/turf/open/floor/carpet/neon/simple/teal/nodots,
-/area/ruin/space/has_grav/hotel/guestroom/room_3)
 "CC" = (
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hotel/dock)
@@ -6022,6 +5994,34 @@
 /obj/effect/turf_decal/siding/dark,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/hotel)
+"IM" = (
+/obj/structure/closet/crate/freezer,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/potato,
+/obj/item/food/grown/potato,
+/obj/item/food/grown/potato,
+/obj/item/food/grown/potato,
+/obj/item/food/grown/potato,
+/obj/item/food/grown/carrotlike/carrot,
+/obj/item/food/grown/carrotlike/carrot,
+/obj/item/food/grown/carrotlike/carrot,
+/obj/item/food/grown/carrotlike/carrot,
+/obj/item/food/grown/carrotlike/carrot,
+/obj/item/food/grown/carrotlike/carrot,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/ruin/space/has_grav/hotel/bar)
 "IP" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
@@ -9016,7 +9016,7 @@ Lc
 fi
 mY
 UK
-sn
+vb
 Yw
 cj
 hw
@@ -9146,7 +9146,7 @@ Oh
 fi
 YR
 dM
-zz
+IM
 fi
 CD
 fh
@@ -9828,7 +9828,7 @@ yX
 jM
 pE
 dx
-Cx
+gc
 hT
 Jx
 rB

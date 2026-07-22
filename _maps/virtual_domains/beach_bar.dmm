@@ -33,6 +33,20 @@
 /obj/item/stack/sheet/mineral/coal/ten,
 /turf/open/floor/plating,
 /area/virtual_domain/fullbright)
+"ba" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/obj/item/food/grown/ambrosia/vulgaris,
+/turf/open/floor/carpet/grimey,
+/area/virtual_domain/fullbright)
 "bf" = (
 /mob/living/basic/crab{
 	name = "Jonny"
@@ -107,6 +121,13 @@
 	},
 /turf/open/floor/sepia,
 /area/virtual_domain/fullbright)
+"dA" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/item/shovel/spade,
+/obj/item/reagent_containers/cup/bucket,
+/obj/item/cultivator,
+/turf/open/floor/carpet/grimey,
+/area/virtual_domain/fullbright)
 "dI" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/wood,
@@ -138,10 +159,6 @@
 /obj/item/melee/skateboard/hoverboard,
 /obj/machinery/light/directional/west,
 /turf/open/floor/pod/light,
-/area/virtual_domain/fullbright)
-"fP" = (
-/obj/machinery/vending/hydronutrients,
-/turf/open/floor/carpet/grimey,
 /area/virtual_domain/fullbright)
 "gh" = (
 /obj/structure/flora/bush/stalky/style_random,
@@ -284,6 +301,10 @@
 /obj/machinery/reagentgrinder,
 /turf/open/floor/wood,
 /area/virtual_domain/fullbright)
+"pe" = (
+/obj/structure/sign/poster/contraband/ambrosia_vulgaris/directional/north,
+/turf/open/floor/carpet/grimey,
+/area/virtual_domain/fullbright)
 "pr" = (
 /turf/template_noop,
 /area/template_noop)
@@ -337,10 +358,6 @@
 /obj/item/canvas/twentythree_twentythree,
 /turf/open/misc/beach/sand,
 /area/virtual_domain/fullbright)
-"rR" = (
-/obj/effect/spawner/holiday/bar_keg,
-/turf/open/floor/wood,
-/area/virtual_domain/fullbright)
 "rT" = (
 /obj/item/toy/seashell,
 /turf/open/misc/beach/sand,
@@ -358,13 +375,6 @@
 "tF" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/wood,
-/area/virtual_domain/fullbright)
-"tK" = (
-/obj/structure/closet/crate/hydroponics,
-/obj/item/shovel/spade,
-/obj/item/reagent_containers/cup/bucket,
-/obj/item/cultivator,
-/turf/open/floor/carpet/grimey,
 /area/virtual_domain/fullbright)
 "tZ" = (
 /obj/structure/toilet,
@@ -476,6 +486,11 @@
 /area/virtual_domain/fullbright)
 "xw" = (
 /turf/open/floor/pod/dark,
+/area/virtual_domain/fullbright)
+"xH" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light/directional/east,
+/turf/open/floor/carpet/grimey,
 /area/virtual_domain/fullbright)
 "xJ" = (
 /obj/structure/closet/cabinet,
@@ -675,11 +690,6 @@
 /obj/effect/baseturf_helper/virtual_domain,
 /turf/closed/wall/mineral/sandstone,
 /area/virtual_domain/fullbright)
-"DU" = (
-/obj/machinery/hydroponics/constructable,
-/obj/machinery/light/directional/east,
-/turf/open/floor/carpet/grimey,
-/area/virtual_domain/fullbright)
 "Em" = (
 /obj/item/reagent_containers/condiment/enzyme,
 /obj/item/reagent_containers/cup/beaker{
@@ -753,6 +763,10 @@
 /obj/machinery/deepfryer,
 /turf/open/floor/wood,
 /area/virtual_domain/fullbright)
+"HH" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/carpet/grimey,
+/area/virtual_domain/fullbright)
 "Ia" = (
 /obj/structure/urinal/directional/north,
 /turf/open/floor/wood,
@@ -780,10 +794,6 @@
 /obj/machinery/vending/snack,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/iron,
-/area/virtual_domain/fullbright)
-"IQ" = (
-/obj/structure/sign/poster/contraband/ambrosia_vulgaris/directional/north,
-/turf/open/floor/carpet/grimey,
 /area/virtual_domain/fullbright)
 "Jt" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer,
@@ -815,10 +825,6 @@
 	name = "Croupier's Booth"
 	},
 /turf/open/floor/wood,
-/area/virtual_domain/fullbright)
-"KT" = (
-/obj/machinery/hydroponics/constructable,
-/turf/open/floor/carpet/grimey,
 /area/virtual_domain/fullbright)
 "KZ" = (
 /obj/structure/flora/bush/stalky/style_random,
@@ -958,6 +964,10 @@
 	},
 /turf/open/floor/wood,
 /area/virtual_domain/fullbright)
+"SM" = (
+/obj/machinery/vending/hydronutrients,
+/turf/open/floor/carpet/grimey,
+/area/virtual_domain/fullbright)
 "SY" = (
 /obj/machinery/door/airlock/sandstone{
 	name = "Surfer Shack 2"
@@ -1083,6 +1093,10 @@
 "YJ" = (
 /turf/open/floor/carpet/purple,
 /area/virtual_domain/fullbright)
+"YK" = (
+/obj/effect/spawner/holiday/bar_keg,
+/turf/open/floor/wood,
+/area/virtual_domain/fullbright)
 "YN" = (
 /obj/effect/turf_decal/sand,
 /obj/machinery/light/directional/west,
@@ -1106,20 +1120,6 @@
 /obj/item/reagent_containers/applicator/pill/morphine,
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/wood,
-/area/virtual_domain/fullbright)
-"ZV" = (
-/obj/structure/closet/crate/hydroponics,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/obj/item/food/grown/ambrosia/vulgaris,
-/turf/open/floor/carpet/grimey,
 /area/virtual_domain/fullbright)
 
 (1,1,1) = {"
@@ -1576,7 +1576,7 @@ Pc
 bf
 Bw
 Fn
-rR
+YK
 Pg
 iR
 kG
@@ -2571,7 +2571,7 @@ aE
 FQ
 aE
 aE
-fP
+SM
 Fn
 Al
 kv
@@ -2614,7 +2614,7 @@ aE
 AI
 BQ
 aE
-ZV
+ba
 Fn
 Al
 kv
@@ -2652,12 +2652,12 @@ YI
 Fn
 Fn
 Fn
-IQ
+pe
 aE
 aE
 aE
 aE
-tK
+dA
 Fn
 Al
 kv
@@ -2695,11 +2695,11 @@ ve
 nP
 ed
 Fn
-KT
-KT
-DU
-KT
-KT
+HH
+HH
+xH
+HH
+HH
 Fn
 Fn
 Al

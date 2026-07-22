@@ -586,6 +586,14 @@
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/ash_walkers)
+"hU" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/no_lava,
+/obj/machinery/smartfridge/drying/rack/smoker,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/ruin/unpowered/ash_walkers)
 "hV" = (
 /obj/structure/ore_vein/iron,
 /obj/effect/mapping_helpers/no_lava,
@@ -1335,11 +1343,6 @@
 	dir = 1
 	},
 /obj/structure/stone_tile/cracked,
-/obj/effect/mapping_helpers/no_lava,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered/ash_walkers)
-"tW" = (
-/obj/structure/falsewall/wood,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/ash_walkers)
@@ -3295,6 +3298,11 @@
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/lava/smooth/lava_land_surface,
 /area/ruin/unpowered/ash_walkers)
+"UE" = (
+/obj/structure/falsewall/wood,
+/obj/effect/mapping_helpers/no_lava,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/ruin/unpowered/ash_walkers)
 "UL" = (
 /obj/structure/millstone,
 /obj/effect/mapping_helpers/no_lava,
@@ -3322,14 +3330,6 @@
 	pixel_x = -8
 	},
 /obj/effect/mapping_helpers/no_lava,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered/ash_walkers)
-"UZ" = (
-/obj/structure/stone_tile/block/cracked{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/no_lava,
-/obj/machinery/smartfridge/drying/rack/smoker,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/ruin/unpowered/ash_walkers)
 "Vl" = (
@@ -4945,7 +4945,7 @@ JC
 JC
 ar
 Ue
-UZ
+hU
 jW
 CV
 CP
@@ -5104,7 +5104,7 @@ li
 JC
 JC
 sQ
-tW
+UE
 JC
 JC
 JC

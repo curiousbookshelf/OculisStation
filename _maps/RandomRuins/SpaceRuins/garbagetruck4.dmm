@@ -181,28 +181,9 @@
 /obj/item/clothing/glasses/meson,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
-"qk" = (
-/obj/structure/closet/crate/wooden,
-/obj/item/toy/figure/wizard{
-	pixel_x = 8;
-	pixel_y = 6
-	},
-/obj/item/toy/figure/clown{
-	pixel_x = -2;
-	pixel_y = 6
-	},
-/obj/item/toy/figure/secofficer{
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/toy/figure/secofficer{
-	pixel_x = 8;
-	pixel_y = 2
-	},
-/obj/item/toy/figure/secofficer{
-	pixel_x = -4;
-	pixel_y = 2
-	},
+"pW" = (
+/obj/effect/spawner/random/food_or_drink/keg,
+/obj/structure/spider/stickyweb,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "qX" = (
@@ -624,6 +605,30 @@
 /obj/item/disk/computer/maintenance/modsuit_control,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
+"Kl" = (
+/obj/structure/closet/crate/wooden,
+/obj/item/toy/figure/wizard{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/toy/figure/clown{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/toy/figure/secofficer{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/toy/figure/secofficer{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/obj/item/toy/figure/secofficer{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/garbagetruck/toystore)
 "KR" = (
 /obj/item/clothing/head/cone{
 	pixel_x = 8;
@@ -701,11 +706,6 @@
 /obj/item/hand_labeler_refill,
 /obj/structure/spider/stickyweb,
 /mob/living/basic/spider/giant/hunter/scrawny,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/garbagetruck/toystore)
-"QA" = (
-/obj/effect/spawner/random/food_or_drink/keg,
-/obj/structure/spider/stickyweb,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/garbagetruck/toystore)
 "QD" = (
@@ -999,7 +999,7 @@ Xs
 wW
 JB
 sA
-qk
+Kl
 Yr
 "}
 (7,1,1) = {"
@@ -1015,7 +1015,7 @@ ld
 ld
 IS
 ld
-QA
+pW
 Rb
 IQ
 Yz

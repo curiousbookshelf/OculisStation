@@ -1686,7 +1686,6 @@
 	if(overdosed) // We do not want any effects on OD
 		return
 	overdose_threshold = overdose_threshold + 5 * ((rand(-10, 10) / 10) * metabolization_ratio * seconds_per_tick) // for extra fun
-
 	metabolizer.AdjustAllImmobility(-25 * metabolization_ratio * seconds_per_tick)
 	metabolizer.adjust_stamina_loss(-15 * metabolization_ratio * seconds_per_tick, updating_stamina = FALSE, required_biotype = affected_biotype)
 	metabolizer.set_jitter_if_lower(5 SECONDS * metabolization_ratio * seconds_per_tick)

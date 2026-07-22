@@ -157,7 +157,7 @@
 	//The original black market uplink
 	accessible_markets = list(/datum/market/blackmarket)
 	custom_premium_price = PAYCHECK_CREW * 2.5
-	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.69, /datum/material/glass = SMALL_MATERIAL_AMOUNT * 3.4) //IRIS EDIT
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.85, /datum/material/glass = SMALL_MATERIAL_AMOUNT * 3.6, /datum/material/gold = SMALL_MATERIAL_AMOUNT, /datum/material/uranium = SMALL_MATERIAL_AMOUNT) //IRIS EDIT
 
 /obj/item/market_uplink/blackmarket/Initialize(mapload)
 	. = ..()
