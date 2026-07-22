@@ -216,7 +216,6 @@
 				/obj/item/storage/backpack/tinypaka = 5,
 				/obj/item/storage/backpack/tinypakb = 5,
 				/obj/item/storage/backpack/tinypakc = 5,
-				/obj/item/toy/pillow/torapillow = 5,
 			)
 		)
 	)
