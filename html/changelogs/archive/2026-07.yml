@@ -301,6 +301,8 @@
   - bugfix: Fixed the radio volume slider being missing in game preferences
   - rscdel: Prisoners will no longer have tattoos forced upon them
   - bugfix: Fixed the radio volume slider being missing in preferences
+  keygenpie:
+  - balance: Golem nutrition damage now depends on number of Golem limbs
   lelandkemble:
   - bugfix: hand teleporters can now close portals
   - bugfix: Academy businessman doesn't buy a scanner wand, as it is not a wand
@@ -424,13 +426,13 @@
   - bugfix: fixes an issue where height filters would not be applied to many bodypart
       overlays
 2026-07-09:
+  ManiacalAnxiety:
+  - rscdel: Removed the restriction barring characters with the "Paroled Convict"
+      quirk from playing departmental guards.
   Melbert:
   - bugfix: Fix emote overlays sticking
   Neocloudy:
   - bugfix: Croptop bomber jacket works on characters with digitigrade legs.
-  ManiacalAnxiety:
-  - rscdel: Removed the restriction barring characters with the "Paroled Convict"
-      quirk from playing departmental guards.
   throwawayuseless:
   - rscadd: Prevent epileptic seizures with anticonvulsants like neurine!
 2026-07-10:
@@ -451,6 +453,8 @@
   - rscadd: Hemophages can slurrrp bloodbags now.
   - rscadd: Limbgrower golem organs now. you dont have to. but you can. i guess. mhm.
       yep. spite PR? What spite PR. I'll have you know no such thing was made.
+  vinylspiders:
+  - bugfix: fixes digi curator and barber undersuits having the wrong sprite
 2026-07-11:
   Hatterhat:
   - bugfix: Contractors' contracts no longer bug out if a target cryos. (The uplink
@@ -911,3 +915,6 @@
   Salted-Zen:
   - balance: Legions can no longer heal bosses, instead, skulls that attempt to do
       this will just die.
+2026-07-22:
+  ManiacalAnxiety:
+  - rscdel: Deletes a rule-breaking line of dialogue from spraytan overdose.
