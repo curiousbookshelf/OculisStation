@@ -263,8 +263,6 @@
   - rscadd: ~~Clumsiness,~~ Rock Eater, Hypermetabolic Blood, Epilepsy, and Two Left
       Feet are now available under the Genetic Mutation quirk.
 2026-07-05:
-  keygenpie:
-  - balance: Golem nutrition damage now depends on number of Golem limbs
   Fghj240:
   - bugfix: nutriment pump implant plus plus plus now has a sideways sprite
   Ghommie:
@@ -445,14 +443,6 @@
   Balls2zawall:
   - rscdel: Removed First Responder, Orange, And Pink medical kits from unrestricted
       access in cargo.
-  vinylspiders:
-  - bugfix: fixes digi curator and barber undersuits having the wrong sprite
-  Shroopy:
-  - code_imp: Added a debug SAD.
-  throwawayuseless:
-  - rscadd: Hemophages can slurrrp bloodbags now.
-  - rscadd: Limbgrower golem organs now. you dont have to. but you can. i guess. mhm.
-      yep. spite PR? What spite PR. I'll have you know no such thing was made.
   vinylspiders:
   - bugfix: fixes digi curator and barber undersuits having the wrong sprite
 2026-07-11:
